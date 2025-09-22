@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Business Setup Services in Dubai & UAE",
+    "img": "/assets/images/services/business-setup.png",
+    "desc": "Quick and reliable assistance with trade licenses, company registration, and incorporation. Start your UAE business smoothly with expert guidance.",
+    "link": "/business-setup-services"
+  },
+  {
+    "title": "PRO Services",
+    "img": "/assets/images/services/pro-service.png",
+    "desc": "End-to-end support for government approvals, renewals, and documentation. Focus on growth while we handle all official processes.",
+    "link": "/pro-services"
+  },
+  {
+    "title": "Document Attestation Services",
+    "img": "/assets/images/services/document-attestation.png",
+    "desc": "Certified attestation for corporate, educational, and personal documents. Ensure legal recognition in the UAE and abroad.",
+    "link": "/document-attestation-services"
+  },
+  {
+    "title": "Legal Services & Legal Assistance",
+    "img": "/assets/images/services/legal.png",
+    "desc": "Expert guidance on contracts, disputes, and compliance cases. Protect your business with trusted legal support.",
+    "link": "/legal-services"
+  },
+  {
+    "title": "Legal Translation Services",
+    "img": "/assets/images/services/translation.png",
+    "desc": "Certified translations for contracts, agreements, and certificates. Accurate and compliant with UAE government standards.",
+       "link": "/legal-translation-services"
+
+  },
+  {
+    "title": "Bank Account Opening in UAE",
+    "img": "/assets/images/services/bank.png",
+    "desc": "Assistance with personal and corporate account setup. Smooth processing with complete documentation support.",
+    "link": "/bank-account-opening-services"
+  },
+  {
+    "title": "Family Visa Services",
+    "img": "/assets/images/services/family-visa.png",
+    "desc": "Hassle-free dependent visa processing for family members. We manage documentation, approvals, and renewals.",
+    "link": "/family-visa-services"
+  },
+  {
+    "title": "Golden Visa UAE",
+    "img": "/assets/images/services/golden-visa.png",
+    "desc": "Eligibility checks and application support for 10-year residency visas. Secure long-term residency for you and your family.",
+    "link": "/golden-visa-services"
+  },
+  {
+    "title": "Tax & Compliance Services",
+    "img": "/assets/images/services/tax.png",
+    "desc": "Professional VAT registration, accounting, and auditing support. Stay compliant with UAE tax and financial regulations.",
+    "link": "/tax-compliance-services"
+  },
+  {
+    "title": "Trademark Registration",
+    "img": "/assets/images/services/tm.png",
+    "desc": "Register and protect your brand legally in the UAE. We handle filing, approvals, and documentation.",
+    "link": "/trademark-registration-services"
+  },
+  {
+    "title": "End-to-End Business Support",
+    "img": "/assets/images/services/end.png",
+    "desc": "Comprehensive corporate solutions from setup to growth. Your trusted partner for long-term business success.",
+    "link": "end-to-end-business-support"
+  }
+]
