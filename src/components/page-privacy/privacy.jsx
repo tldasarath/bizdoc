@@ -82,7 +82,7 @@ function PrivacyPolicy() {
                 For questions about this Privacy Policy or your personal data, contact us at:
               </p>
               <p className="mb-30">
-                📧 <a href="mailto:info@bizdoc.ae" className="main-color">info@bizdoc.ae</a> | 📞 <a href="tel:+971551642244" className="main-color">+971 55 164 2244</a>
+                📧 <a href="mailto:info@bizdoc.ae" className="main-color">info@bizdoc.ae</a> | 📞 <a  className="main-color">+971 4 570 7920 </a>
               </p>
             </div>
           </div>

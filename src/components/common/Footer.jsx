@@ -22,15 +22,17 @@ function Footer() {
                 Union Coop, Basement B 02, <br /> Al Twar 1,<br /> Near Dafza Metro, Dubai,
               </h6>
               <h6 className="mt-30 mb-15">
-                <a href="mailto:bizdocdxb@gmail.com">bizdocdxb@gmail.com</a>
+                <a href="mailto:info@bizdoc.ae">info@bizdoc.ae</a>
               </h6>
               <a
                 className="main-color"
-                href="https://wa.me/971551642244"
+                href="https://wa.me/97145707920 
+"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                +971 55 164 2244
+              +971 4 570 7920 
+
               </a>
               <br />
               <a

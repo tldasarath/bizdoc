@@ -117,7 +117,7 @@ const Chatbot = () => {
 
   const botResponses = {
     "what services do you offer?": "Here are the services we provide. Please click on a service to know more:",
-    "how can i contact your team?": "You can reach us at <a href=\"mailto:bizdocdxb@gmail.com\" class=\"contact-link\">bizdocdxb@gmail.com</a> or call <a href=\"tel:+971551642244\" class=\"contact-link\">+971 55 164 2244</a> / <a href=\"tel:+971524740055\" class=\"contact-link\">+971 52 474 0055</a> during business hours.",
+    "how can i contact your team?": "You can reach us at <a href=\"mailto:info@bizdoc.ae\" class=\"contact-link\">info@bizdoc.ae</a> or call <a href=\"tel:+97145707920\" class=\"contact-link\">+971 4 570 7920</a> / <a href=\"tel:+971524740055\" class=\"contact-link\">+971 52 474 0055</a> during business hours.",
     "what are your business hours?": "Our customer support is available Monday to Friday, 9:00 AM to 6:00 PM UAE time.",
     "do you have pricing information?": "Our pricing varies based on the specific services you need. You can schedule a consultation to get a personalized quote.",
     "default": "I'm sorry, I didn't understand that. Could you please rephrase your question or choose one of the options below?"
@@ -146,7 +146,7 @@ const Chatbot = () => {
         setMessages([
           ...newMessages,
           { text: `${text}: ${servicesList[text]}`, sender: "bot" },
-          { text: "➡️ For more details: <a href=\"mailto:bizdocdxb@gmail.com\" class=\"contact-link\">bizdocdxb@gmail.com</a> | <a href=\"tel:+971551642244\" class=\"contact-link\">+971 55 164 2244</a> / <a href=\"tel:+971524740055\" class=\"contact-link\">+971 52 474 0055</a>", sender: "bot", type: "highlight" }
+          { text: "➡️ For more details: <a href=\"mailto:info@bizdoc.ae\" class=\"contact-link\">info@bizdoc.ae</a> | <a href=\"tel:+971551642244\" class=\"contact-link\">+971 4 570 7920 </a> / <a href=\"tel:+971524740055\" class=\"contact-link\">+971 52 474 0055</a>", sender: "bot", type: "highlight" }
         ]);
       } else {
         setMessages([...newMessages, { text: botResponse, sender: "bot" }]);

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { SiX } from "react-icons/si";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -108,11 +110,10 @@ const handleSubmit = async (e) => {
             <div className="sec-head info-box full-width md-mb80">
               <div className="phone fz-30 fw-600 underline main-color">
                 <a
-                  href="https://wa.me/971551642244"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                 
                 >
-                  +971 55 164 2244
+                  +971 4 570 7920 
+
                 </a>
                 <br />
                 <a
@@ -133,22 +134,42 @@ const handleSubmit = async (e) => {
               <div className="morinfo mt-30 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Email</h6>
                 <p>
-                  <a href="mailto:bizdocdxb@gmail.com">bizdocdxb@gmail.com</a>
+                  <a href="mailto:info@bizdoc.ae">info@bizdoc.ae</a>
                 </p>
               </div>
               <div className="social-icon mt-50">
-                <a href="#0">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-dribbble"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-behance"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-instagram"></i>
-                </a>
+               <a
+                                   href="https://www.facebook.com/profile.php?id=61579783263789"
+                                   className="social-link group inline-flex items-center justify-center w-12 h-12 rounded-full transition-all duration-300 hover:bg-gray-100 cursor-pointer relative z-40"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                 >
+                                   <FaFacebookF className="text-gray-500 transition-all duration-300 group-hover:text-[#1877F2] text-xl" />
+                                 </a>
+                  <a
+                                    href="https://x.com/bizdoc_official"
+                                    className="social-link group inline-flex items-center justify-center w-12 h-12 rounded-full transition-all duration-300 hover:bg-gray-100 cursor-pointer relative z-40"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <SiX className="text-gray-500 transition-all duration-300 group-hover:text-black text-xl" />
+                                  </a>
+                <a
+                                   href="https://www.linkedin.com/company/107069996/admin/dashboard/"
+                                   className="social-link group inline-flex items-center justify-center w-12 h-12 rounded-full transition-all duration-300 hover:bg-gray-100 cursor-pointer relative z-40"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                 >
+                                   <FaLinkedinIn className="text-gray-500 transition-all duration-300 group-hover:text-[#0A66C2] text-xl" />
+                                 </a>
+                <a
+                                    href="https://www.instagram.com/bizdoc_official?igsh=azNjamsweDRvaGw1"
+                                    className="social-link group inline-flex items-center justify-center w-12 h-12 rounded-full transition-all duration-300 hover:bg-gray-100 cursor-pointer relative z-40"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <FaInstagram className="text-gray-500 transition-all duration-300 group-hover:text-[#E4405F] text-xl" />
+                                  </a>
               </div>
             </div>
           </div>

@@ -68,15 +68,15 @@ export default function PageContact() {
   return (
     <>
       <Helmet>
-<title>Contact Bizdoc UAE | Business Setup Consultation in Dubai,Uae</title>
-<meta
-  name="description"
-  content="Contact Bizdoc UAE for expert business setup consultation Dubai,uae, visa services, PRO support, bank account opening, and compliance consultation."
-/>
-<meta
-  name="keywords"
-  content="business setup consultation Dubai,uae, company formation support UAE, visa services contact UAE, corporate services Bizdoc"
-/>
+        <title>Contact Bizdoc UAE | Business Setup Consultation in Dubai,Uae</title>
+        <meta
+          name="description"
+          content="Contact Bizdoc UAE for expert business setup consultation Dubai,uae, visa services, PRO support, bank account opening, and compliance consultation."
+        />
+        <meta
+          name="keywords"
+          content="business setup consultation Dubai,uae, company formation support UAE, visa services contact UAE, corporate services Bizdoc"
+        />
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
