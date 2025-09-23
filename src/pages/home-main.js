@@ -80,8 +80,8 @@ export default function HomeMain() {
     <>
       <Helmet>
         <title>Business Setup Company in UAE | Bizdoc – Expert PRO & Visa Services</title>
-        <link rel="icon" href="/assets/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
+        <link rel="icon" href="/assets/images/home/favicon.png" />
+        <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
         <meta

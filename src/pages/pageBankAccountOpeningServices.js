@@ -82,8 +82,8 @@ export default function PageBankAccountOpeningServices() {
           content="Bank Account UAE, Business Banking UAE, UAE Corporate Account"
         />
 
-        <link rel="icon" href="/assets/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
+           <link rel="icon" href="/assets/images/home/favicon.png" />
+        <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
 

@@ -79,8 +79,8 @@ export default function Freezone() {
           name="keywords"
           content="Dubai free zone company formation, business setup in Dubai free zone, free zone license Dubai, start business UAE free zone, Dubai free zone benefits, company registration UAE free zone"
         />
-        <link rel="icon" href="/assets/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
+           <link rel="icon" href="/assets/images/home/favicon.png" />
+        <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
 

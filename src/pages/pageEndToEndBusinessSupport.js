@@ -83,8 +83,8 @@ export default function PageEndToEndBusinessSupport() {
           content="Business Support UAE, Company Formation UAE, PRO Services UAE"
         />
 
-        <link rel="icon" href="/assets/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
+           <link rel="icon" href="/assets/images/home/favicon.png" />
+        <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
 

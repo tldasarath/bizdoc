@@ -84,8 +84,8 @@ export default function Terms() {
           name="keywords"
           content="Bizdoc Terms UAE, Business Setup Terms UAE, Legal Disclaimer UAE"
         />
-        <link rel="icon" href="/assets/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
+           <link rel="icon" href="/assets/images/home/favicon.png" />
+        <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
 

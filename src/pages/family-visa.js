@@ -79,8 +79,8 @@ export default function   FamilyVisa() {
           name="keywords"
           content="family visa services UAE, family visa Dubai, UAE residence visa for family, spouse visa UAE, dependent visa Dubai, family visa consultants UAE"
         />
-        <link rel="icon" href="/assets/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
+           <link rel="icon" href="/assets/images/home/favicon.png" />
+        <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
 
