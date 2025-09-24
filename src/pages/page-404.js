@@ -63,7 +63,7 @@ export default function Page404() {
   return (
     <>
       <Helmet>
-        <title>webfolio</title>
+        <title>404</title>
            <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

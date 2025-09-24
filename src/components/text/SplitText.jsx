@@ -26,6 +26,24 @@ const SplitText = ({
   const animationCompletedRef = useRef(false);
   const [fontsLoaded, setFontsLoaded] = useState(false);
 
+const [fontSize, setFontSize] = useState('5.5rem');
+
+useEffect(() => {
+  const handleResize = () => {
+    if (window.innerWidth <= 480) {
+      setFontSize('4rem');
+    } else if (window.innerWidth <= 768) {
+      setFontSize('2.5rem');
+    } else {
+      setFontSize('5.5rem');
+    }
+  };
+
+  handleResize(); // run on mount
+  window.addEventListener('resize', handleResize);
+  return () => window.removeEventListener('resize', handleResize);
+}, []);
+
   useEffect(() => {
     if (document.fonts.status === 'loaded') {
       setFontsLoaded(true);
@@ -141,9 +159,10 @@ const SplitText = ({
   );
 
   const renderTag = () => {
+    
     const style = {
       textAlign,
-      fontSize: '5.5rem',
+      fontSize,
       overflow: 'hidden',
       display: 'inline-block',
       whiteSpace: 'normal',

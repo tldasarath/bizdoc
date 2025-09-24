@@ -42,6 +42,7 @@ import LightRays from './components/bg/LightRays .jsx';
 import Chatbot from './components/chatbot/chatbot.jsx';
 import Privacy from './pages/page-privacy.js';
 import Terms from './pages/page-term.js';
+import { useEffect, useState } from 'react';
 // import gsap from 'gsap';
 // import { ScrollTrigger } from 'gsap/ScrollTrigger';
 // // // import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
@@ -49,22 +50,35 @@ import Terms from './pages/page-term.js';
 // gsap.registerPlugin(ScrollTrigger);
 // gsap.config({ trialWarn: false });
 function App() {
+   const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // change breakpoint as needed
+    };
+
+    handleResize(); // check on mount
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <Router>
       <Chatbot/>
             <div className="relative">
-      <LightRays
-    raysOrigin="top-center"
-    // raysColor="#c2994e"
-    raysSpeed={1.5}
-    lightSpread={0.8}
-    rayLength={1.2}
-    followMouse={true}
-    mouseInfluence={0.1}
-    noiseAmount={0.1}
-    distortion={0.05}
-    className="custom-rays"
-  />
+      {!isMobile && (
+          <LightRays
+            raysOrigin="top-center"
+            raysSpeed={1.5}
+            lightSpread={0.8}
+            rayLength={1.2}
+            followMouse={true}
+            mouseInfluence={0.1}
+            noiseAmount={0.1}
+            distortion={0.05}
+            className="custom-rays"
+          />
+        )}
       <Routes>
         {/* <Route path="/blog-classic" element={<BlogClassic />} /> */}
         <Route path="/business-setup" element={<BusinessSetup />} />
