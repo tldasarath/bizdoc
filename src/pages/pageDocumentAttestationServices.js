@@ -72,14 +72,14 @@ export default function PageDocumentAttestationServices() {
   return (
     <>
       <Helmet>
-        <title>Document Attestation Services in UAE | Bizdoc</title>
+        <title>Document Attestation Services in Dubai | Bizdoc</title>
         <meta
           name="description"
-          content="Get fast and reliable document attestation in UAE with Bizdoc. We verify educational, personal, and commercial documents, coordinate with MOFA and embassies, and ensure full legal compliance for visas, jobs, and business needs."
+          content="Get fast and reliable document attestation services in Dubai with Bizdoc. We verify educational, personal, and commercial documents, coordinate with MOFA and embassies, and ensure full legal compliance for visas."
         />
         <meta
           name="keywords"
-          content="Document Attestation UAE, MOFA Attestation UAE, UAE Certificate Verification"
+          content="document attestation services in dubai,mofa attestation dubai,uae"
         />
 
            <link rel="icon" href="/assets/images/home/favicon.png" />

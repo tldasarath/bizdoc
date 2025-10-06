@@ -73,14 +73,14 @@ export default function PageTrademarkRegistrationServices() {
   return (
     <>
       <Helmet>
-        <title>Trademark Registration in UAE | Protect Your Brand with Bizdoc</title>
+        <title>Trademark Registration services in Dubai | Protect Your Brand with Bizdoc</title>
         <meta
           name="description"
-          content="Secure your brand with Bizdoc’s trademark registration services in UAE. We handle trademark search, application filing, government coordination, objection handling, and renewals to protect your intellectual property."
+          content="Secure your brand with Bizdoc’s trademark registration services in Dubai. We handle trademark search, application filing, government coordination, objection handling, and renewals ."
         />
         <meta
           name="keywords"
-          content="Trademark Registration UAE, Brand Protection UAE, Intellectual Property UAE"
+          content="trademark registration services in dubai, brand protection dubai"
         />
 
            <link rel="icon" href="/assets/images/home/favicon.png" />

@@ -69,14 +69,14 @@ export default function GoldenVisa() {
   return (
     <>
       <Helmet>
-        <title>Golden Visa UAE | Complete Guide to 10-Year Residency in Dubai</title>
+        <title>Golden Visa Dubai,UAE | Complete Guide to 10-Year Residency in Dubai</title>
         <meta
           name="description"
-          content="Learn how to apply for the Golden Visa UAE. Discover eligibility, benefits, and application process for the 10-year residency visa with Bizdoc support."
+          content="Learn how to apply for the Golden Visa Dubai,UAE. Discover eligibility, benefits, and application process for the 10-year residency visa with Bizdoc support."
         />
         <meta
           name="keywords"
-          content="Golden Visa UAE, UAE residency visa, long-term visa Dubai, Golden Visa consultants UAE, 10-year residency visa UAE"
+          content="golden visa dubai,uae ,residency visa, long-term visa dubai, golden visa consultants dubai, 10-year residency visa dubai,uae"
         />
            <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />

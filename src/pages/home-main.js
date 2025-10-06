@@ -79,18 +79,18 @@ export default function HomeMain() {
   return (
     <>
       <Helmet>
-        <title>Business Setup Company in UAE | Bizdoc – Expert PRO & Visa Services</title>
+        <title>Business Setup Company in Dubai,UAE | Bizdoc – Expert PRO & Visa Services</title>
         <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
         <meta
           name="description"
-          content="Simplify your business setup in UAE with Bizdoc. Get expert company formation, trade license registration, PRO services, visa processing, bank account opening, and Golden Visa assistance. Contact now !"
+          content="Find business setup company in Dubai with Bizdoc. Get expert company formation, trade license registration, PRO services, visa processing, bank account opening, and Golden Visa assistance. Contact now !"
         />
         <meta
           name="keywords"
-          content="Business Setup UAE, Company Formation Dubai, PRO Services UAE"
+          content="Business Setup company in Dubai, Company Formation Dubai, PRO Services Dubai,UAE"
         />
         <link
           rel="stylesheet"

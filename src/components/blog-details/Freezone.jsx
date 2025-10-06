@@ -10,12 +10,12 @@ function FreeZoneBlog() {
             <div className="main-post">
               <div className="item pb-60">
                 <div className="img mb-40">
-                  <img src="/assets/images/blogs/freezone.png" alt="Business setup in Dubai free zone" className="w-100" />
+                  <img src="/assets/images/blogs/business-setup-in-dubai-freezone.png" alt="Business setup in Dubai free zone" className="w-100" />
                 </div>
                 
                 <article>
                   <div className="title mb-30">
-                    <h1>Business setup in Dubai free zone: The Smart Choice for Entrepreneurs</h1>
+                    <h1>Business setup in Dubai free zone: <h2>The Smart Choice for Entrepreneurs</h2></h1>
                   </div>
 
                   <div className="title mt-30">
@@ -248,7 +248,7 @@ function FreeZoneBlog() {
                   </div>
                   <div className="text mt-20">
                     <p>
-                      At Bizdoc, we specialize in <span className='main-color'>business setup in Dubai free zones</span>, offering:
+                      At Bizdoc, we specialize in <a href='/business-setup-in-dubai-a-complete-guide' className='main-color'>business setup in Dubai</a> free zones, offering:
                     </p>
                     
                     <div className="services-list p-4 rounded mt-30 mb-30">
@@ -290,7 +290,7 @@ function FreeZoneBlog() {
                   </div>
                   <div className="text mt-20">
                     <p>
-                      <span className='main-color'>Dubai free zone company formation</span> is the smartest way to start a business in the UAE. With unmatched benefits, global connectivity, and simplified processes, it's no surprise that thousands of entrepreneurs choose free zones every year.
+                      <a className='main-color' href="/">Company formation in Dubai</a> is the smartest way to start a business in the UAE. With unmatched benefits, global connectivity, and simplified processes, it's no surprise that thousands of entrepreneurs choose free zones every year.
                     </p>
                   </div>
                 </article>

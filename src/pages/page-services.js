@@ -74,17 +74,17 @@ export default function PageServices() {
   return (
     <>
       <Helmet>
-        <title> Business Support & Visa Services in UAE | Bizdoc
-</title>
+        <title> Business Support & Visa Services in Dubai | Bizdoc
+        </title>
         <meta
           name="description"
-          content="Explore Bizdoc’s end-to-end business support services in UAE. From company formation, PRO services, and visa processing to legal assistance, bank account opening, tax compliance, and trademark registration, we simplify every step of your business journey."
+          content="Explore Bizdoc’s end-to-end Business Support & Visa Services in Dubai . From company formation, PRO services, and visa processing to legal assistance, bank account opening, tax compliance, and trademark registration."
         />
         <meta
           name="keywords"
-          content="Business Support UAE, Visa Services UAE, Company Formation Dubai"
+          content="business support & visa services in dubai, company formation dubai"
         />
-           <link rel="icon" href="/assets/images/home/favicon.png" />
+        <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />

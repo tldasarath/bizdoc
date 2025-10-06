@@ -10,42 +10,42 @@ function GoldenVisas() {
             <div className="main-post">
               <div className="item pb-60">
                 <div className="img mb-40">
-                  <img src="/assets/images/blogs/golden-visa.png" alt="Golden Visa UAE" className="w-100" />
+                  <img src="/assets/images/blogs/golden-visa-dubai-uae.png" alt="Golden Visa Dubai" className="w-100" />
                 </div>
                 
                 <article>
                   <div className="title mb-30">
-                    <h1>Golden Visa UAE: Your Ultimate Guide to Long-Term Residency</h1>
+                    <h1>Golden Visa Dubai: Your Ultimate Guide to Long-Term Residency</h1>
                   </div>
                   
                   <div className="text">
                     <h4 className="fz-24 mb-20">Introduction</h4>
                     <p>
-                      The <strong className='main-color'>Golden Visa UAE</strong> has become one of the most sought-after residency options for entrepreneurs, investors, skilled professionals, and families. Introduced by the UAE government to attract global talent and investment, the Golden Visa offers long-term residency of up to 10 years.
+                      The <a className='main-color' href='/golden-visa-services-in-dubai'>Golden Visa Services in Dubai</a> has become one of the most sought-after residency options for entrepreneurs, investors, skilled professionals, and families. Introduced by the Dubai government to attract global talent and investment, the Golden Visa dubaioffers long-term residency of up to 10 years.
                     </p>
                     <p>
-                      For many, it is more than just a visa—it represents stability, security, and an opportunity to live, work, and grow in one of the world's fastest-developing economies. In this guide, we'll cover everything you need to know about the Golden Visa in Dubai and the UAE—including eligibility, benefits, the application process, and how Bizdoc can help.
-                    </p>
-                  </div>
-
-                  <div className="title mt-30">
-                    <h4>What is the Golden Visa UAE?</h4>
-                  </div>
-                  <div className="text mt-20">
-                    <p>
-                      The <strong className='main-color'>Golden Visa UAE</strong> is a long-term residency visa that allows foreign nationals to live, work, and study in the UAE without needing a local sponsor. Unlike regular residency visas, which are valid for 2–3 years, the Golden Visa provides 5 or 10 years of residency and is automatically renewable.
-                    </p>
-                    <p>
-                      This initiative has positioned Dubai and the wider UAE as a global hub for entrepreneurs, professionals, and investors.
+                      For many, it is more than just a visa—it represents stability, security, and an opportunity to live, work, and grow in one of the world's fastest-developing economies. In this guide, we'll cover everything you need to know about the Golden Visa in Dubai including eligibility, benefits, the application process, and how Bizdoc can help.
                     </p>
                   </div>
 
                   <div className="title mt-30">
-                    <h4>Who is Eligible for the Golden Visa UAE?</h4>
+                    <h4>What is the Golden Visa Dubai?</h4>
                   </div>
                   <div className="text mt-20">
                     <p>
-                      Eligibility for the <strong className='main-color'>Golden Visa UAE</strong> depends on your profession, investment, or achievements. The main categories include:
+                      The <strong className='main-color'>Golden Visa Dubai</strong> is a long-term residency visa that allows foreign nationals to live, work, and study in the Dubai without needing a local sponsor. Unlike regular residency visas, which are valid for 2–3 years, the Golden Visa provides 5 or 10 years of residency and is automatically renewable.
+                    </p>
+                    <p>
+                      This initiative has positioned Dubai as a global hub for entrepreneurs, professionals, and investors.
+                    </p>
+                  </div>
+
+                  <div className="title mt-30">
+                    <h4>Who is Eligible for the Golden Visa Dubai?</h4>
+                  </div>
+                  <div className="text mt-20">
+                    <p>
+                      Eligibility for the <strong className='main-color'>Golden Visa Dubai</strong> depends on your profession, investment, or achievements. The main categories include:
                     </p>
                     
                     <div className="benefits-list mt-30 mb-30">
@@ -57,7 +57,7 @@ function GoldenVisas() {
                             </div>
                             <div className="cont">
                               <h6 className="fz-18 mb-5">1. Investors</h6>
-                              <p className="fz-16 mb-0">Real estate investors with properties worth AED 2 million or more. Business investors who contribute significantly to the UAE economy.</p>
+                              <p className="fz-16 mb-0">Real estate investors with properties worth AED 2 million or more. Business investors who contribute significantly to the Dubai economy.</p>
                             </div>
                           </div>
                         </div>
@@ -68,7 +68,7 @@ function GoldenVisas() {
                             </div>
                             <div className="cont">
                               <h6 className="fz-18 mb-5">2. Entrepreneurs</h6>
-                              <p className="fz-16 mb-0">Owners of successful startups or those with innovative projects recognized by UAE authorities. Entrepreneurs with business incubator approvals.</p>
+                              <p className="fz-16 mb-0">Owners of successful startups or those with innovative projects recognized by Dubai authorities. Entrepreneurs with business incubator approvals.</p>
                             </div>
                           </div>
                         </div>
@@ -90,7 +90,7 @@ function GoldenVisas() {
                             </div>
                             <div className="cont">
                               <h6 className="fz-18 mb-5">4. Outstanding Students</h6>
-                              <p className="fz-16 mb-0">High-performing students in UAE schools and universities. Graduates from the world's top 100 universities may also qualify.</p>
+                              <p className="fz-16 mb-0">High-performing students in Dubai schools and universities. Graduates from the world's top 100 universities may also qualify.</p>
                             </div>
                           </div>
                         </div>
@@ -110,18 +110,18 @@ function GoldenVisas() {
                   </div>
 
                   <div className="title mt-30">
-                    <h4>Benefits of the Golden Visa UAE</h4>
+                    <h4>Benefits of the Golden Visa Dubai</h4>
                   </div>
                   <div className="text mt-20">
                     <p>
-                      Obtaining a <strong className='main-color'>10-year residency visa in UAE</strong> comes with several advantages:
+                      Obtaining a <a href="/golden-visa-services-in-dubai" className='main-color'>10-year residency visa in Dubai</a> comes with several advantages:
                     </p>
                     
                     <div className="challenges-list p-4 rounded mt-30 mb-30">
                       <ul className="rest">
                         <li className="mb-10 d-flex align-items-start">
                           <i className="ti-check-box main-color mr-10 mt-5"></i>
-                          <span><strong>Long-term stability:</strong> Live in the UAE without frequent visa renewals.</span>
+                          <span><strong>Long-term stability:</strong> Live in the Dubai without frequent visa renewals.</span>
                         </li>
                         <li className="mb-10 d-flex align-items-start">
                           <i className="ti-check-box main-color mr-10 mt-5"></i>
@@ -133,7 +133,7 @@ function GoldenVisas() {
                         </li>
                         <li className="mb-10 d-flex align-items-start">
                           <i className="ti-check-box main-color mr-10 mt-5"></i>
-                          <span><strong>Flexibility:</strong> Ability to stay outside UAE for extended periods without losing residency.</span>
+                          <span><strong>Flexibility:</strong> Ability to stay outside Dubai for extended periods without losing residency.</span>
                         </li>
                         <li className="mb-10 d-flex align-items-start">
                           <i className="ti-check-box main-color mr-10 mt-5"></i>
@@ -152,11 +152,11 @@ function GoldenVisas() {
                   </div>
 
                   <div className="title mt-50">
-                    <h4>How to Apply for the Golden Visa UAE</h4>
+                    <h4>How to Apply for the Golden Visa Dubai</h4>
                   </div>
                   <div className="text mt-20">
                     <p>
-                      Applying for a <strong className='main-color'>Golden Visa UAE</strong> involves several steps. Working with experienced Golden Visa consultants in Dubai, like Bizdoc, ensures a smooth application process.
+                      Applying for a <strong className='main-color'>Golden Visa Dubai</strong> involves several steps. Working with experienced Golden Visa consultants in Dubai, like Bizdoc, ensures a smooth application process.
                     </p>
                     
                     <div className="steps-timeline position-relative mt-40">
@@ -251,7 +251,7 @@ function GoldenVisas() {
                   </div>
                   <div className="text mt-20">
                     <p>
-                      At Bizdoc, we specialize in helping clients secure the <strong className='main-color'>Golden Visa UAE</strong> without unnecessary delays. Here's how we add value:
+                      At Bizdoc, we specialize in helping clients secure the <strong className='main-color'>Golden Visa Dubai</strong> without unnecessary delays. Here's how we add value:
                     </p>
                     
                     <div className="services-list p-4 rounded mt-30 mb-30">
@@ -288,7 +288,7 @@ function GoldenVisas() {
                     </div>
                     
                     <p className="mt-30">
-                      We also help entrepreneurs and professionals align their applications with business setup, tax compliance, and banking requirements in the UAE.
+                      We also help entrepreneurs and professionals align their applications with business setup, tax compliance, and banking requirements in the Dubai.
                     </p>
                   </div>
 
@@ -297,7 +297,7 @@ function GoldenVisas() {
                   </div>
                   <div className="text mt-20">
                     <p>
-                      The <strong className='main-color'>Golden Visa UAE</strong> is more than just a residency option—it's a long-term investment in your future. Whether you are an investor, entrepreneur, skilled professional, or student, the UAE provides a clear path to long-term residency with unmatched benefits.
+                      The <strong className='main-color'>Golden Visa Dubai</strong> is more than just a residency option—it's a long-term investment in your future. Whether you are an investor, entrepreneur, skilled professional, or student, the Dubai provides a clear path to long-term residency with unmatched benefits.
                     </p>
                   </div>
                 </article>

@@ -127,7 +127,7 @@ function Header() {
   {showText && (
     <>
       <SplitText text="Business Setup" tag="h1" textAlign="left" trigger="#hero-caption" duration={1.6} delay={200} />
-      <SplitText text=" Company in UAE ," tag="h1" className="nowrap" textAlign="left"  duration={1.6} delay={200} trigger="#hero-caption" />
+      <SplitText text=" Company in Dubai ," tag="h1" className="nowrap" textAlign="left"  duration={1.6} delay={200} trigger="#hero-caption" />
       <SplitText text=" Proven & Professional." tag="h1" className="nowrap" textAlign="left"  duration={1.6} delay={200} trigger="#hero-caption" />
     </>
   )}

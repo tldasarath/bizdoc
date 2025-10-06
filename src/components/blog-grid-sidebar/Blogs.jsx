@@ -71,8 +71,8 @@ function Blogs() {
                               <i className="ti-time mr-5"></i>{values.readTime} min read
                             </span> */}
                           </div>
-                          <h4 className="fz-30 mb-20">
-                            {values.title}
+                          <h4  className="fz-30 mb-20">
+                            <a className='custom-link' href={values.link}>{values.title}</a>
                           </h4>
 
                           <a

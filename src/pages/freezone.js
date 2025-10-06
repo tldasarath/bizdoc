@@ -70,14 +70,14 @@ export default function Freezone() {
   return (
     <>
       <Helmet>
-        <title>Dubai Free Zone Company Formation | Start Your Business in UAE Free Zones</title>
+        <title>Business setup in Dubai free zone, | Start Your Business in Dubai,UAE Free Zones</title>
         <meta
           name="description"
           content="Discover how Dubai free zone company formation can help entrepreneurs launch businesses with 100% ownership, tax benefits, and global opportunities."
         />
         <meta
           name="keywords"
-          content="Dubai free zone company formation, business setup in Dubai free zone, free zone license Dubai, start business UAE free zone, Dubai free zone benefits, company registration UAE free zone"
+          content="business setup in dubai free zone, free zone license dubai, start business dubai,uae free zone, Dubai free zone benefits"
         />
            <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />

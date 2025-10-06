@@ -73,7 +73,7 @@ function Services() {
                   <div className="icon mb-40 opacity-5" >
                     <img src={item.img} alt="" />
                   </div>
-                  <h5 className="mb-15">{item.title}</h5>
+                  <h5 className="mb-15"><a href={item.link}>{item.title}</a></h5>
                   <p>{item.desc}</p>
                   <a href={item.link} className="rmore mt-30">
                     <span className="sub-title">Read More</span>

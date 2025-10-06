@@ -7,7 +7,7 @@ function ProServices() {
   // Service data based on your provided content
   const service = {
     id: id || 2,
-    Introduction: "Running a company in the UAE often means dealing with government approvals, labor contracts, and visa applications. These tasks can be time-consuming and confusing, especially for new entrepreneurs and investors. Bizdoc offers professional PRO services in UAE to handle all your public relations and government requirements quickly and efficiently. With our support, you save time, reduce stress, and ensure full compliance with UAE laws.",
+    Introduction: "Running a company in the Dubai often means dealing with government approvals, labor contracts, and visa applications. These tasks can be time-consuming and confusing, especially for new entrepreneurs and investors. Bizdoc offers professional PRO services in Dubai to handle all your public relations and government requirements quickly and efficiently. With our support, you save time, reduce stress, and ensure full compliance with Dubai laws.",
     OurProServicesCover: [
       "Visa Processing and Cancellation - We manage employment visas, residency visas, family visas, and cancellation requests with smooth coordination across immigration departments.",
       "Emirates ID and Medical Typing - From typing applications to scheduling medical tests and processing Emirates IDs, we take care of all formalities.",
@@ -18,14 +18,14 @@ function ProServices() {
     Benefits: [
       "Time-Saving: We handle paperwork and approvals while you focus on running your business.",
       "Error-Free Processing: Our experts ensure all documents are complete and accurate.",
-      "Compliance Assurance: Stay up to date with UAE's labor and immigration rules.",
+      "Compliance Assurance: Stay up to date with Dubai's labor and immigration rules.",
       "Cost-Effective Solutions: Avoid fines and unnecessary expenses through professional handling."
     ],
-    WhyChooseBizdoc: "Bizdoc combines local expertise with efficient processes to provide you with reliable PRO services in Dubai and across the UAE. Our team ensures smooth interactions with government departments, helping you maintain compliance and continuity in your operations.",
-    CallToAction: "Let our experienced PRO team handle your government documentation and approvals, ensuring your business runs smoothly and remains compliant with UAE regulations."
+    WhyChooseBizdoc: "Bizdoc combines local expertise with efficient processes to provide reliable business setup, PRO, and legal services in Dubai. Our team ensures smooth interactions with government departments, helping you stay compliant and maintain business continuity across the UAE.",
+    CallToAction: "Let our experienced PRO team handle your government documentation and approvals, ensuring your business runs smoothly and remains compliant with Dubai regulations."
   };
 
-  const serviceKey = "ProServicesInUAE";
+  const serviceKey = "ProServicesInDubai";
 
   return (
     <section className="intro section-padding">
@@ -34,7 +34,7 @@ function ProServices() {
         <div className="row mb-60">
           <div className="col-12">
             <div className="img-full fit-img rounded-lg overflow-hidden">
-              <img src="/assets/images/services/pro-service.png" alt={serviceKey} className="w-75" />
+              <img src="/assets/images/services/pro-service-in-dubai.png" alt={serviceKey} className="w-75" />
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ function ProServices() {
         <div className="row mb-50">
           <div className="col-12">
             <h6 className="sub-title main-color mb-15">Service Overview</h6>
-            <h1 className="mb-30 fw-600">PRO Services in <span className='main-color'>UAE</span></h1>
+            <h1 className="mb-30 fw-600">PRO Services in <span className='main-color'>Dubai</span></h1>
             <p className="lead-text mb-0">{service.Introduction}</p>
           </div>
         </div>
@@ -54,7 +54,7 @@ function ProServices() {
             {/* Services offered */}
             {service.OurProServicesCover && (
               <div className="service-section mb-50">
-                <h3 className="mb-30 fw-500">Our PRO Services in <span className='main-color'>UAE</span> Cover</h3>
+                <h3 className="mb-30 fw-500">Our PRO Services in <span className='main-color'>Dubai</span> Cover</h3>
                 <div className="row">
                   <div className="col-12">
                     <ul className="service-list">
@@ -92,10 +92,10 @@ function ProServices() {
             {/* Why Choose Bizdoc */}
             {service.WhyChooseBizdoc && (
               <div className="service-section mb-50">
-                <h3 className="mb-30 fw-500">Why Choose Bizdoc for PRO Services in <span className='main-color'>UAE</span></h3>
+                <h3 className="mb-30 fw-500">Why Choose Bizdoc for PRO Services in <span className='main-color'>Dubai</span></h3>
                 <div className="row">
                   <div className="col-12">
-                    <p className="mb-0">{service.WhyChooseBizdoc}</p>
+                    <p className="mb-0">Bizdoc combines local expertise with efficient processes to provide reliable business setup, PRO, and <a className='main-color' href="/legal-services-in-dubai">legal services in Dubai</a>. Our team ensures smooth interactions with government departments, helping you stay compliant and maintain business continuity across the UAE.</p>
                   </div>
                 </div>
               </div>
@@ -119,79 +119,79 @@ function ProServices() {
                 <h5 className="mb-3 fw-500">Our Services</h5>
                 <ul className="list-unstyled">
                   <li className="mb-2">
-                    <a href="/business-setup-services" className=" d-flex align-items-center">
+                    <a href="/business-setup-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Business Setup
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/pro-services" className=" d-flex align-items-center">
+                    <a href="/pro-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       PRO Services
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/document-attestation-services" className=" d-flex align-items-center">
+                    <a href="/document-attestation-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Document Attestation
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/legal-services" className=" d-flex align-items-center">
+                    <a href="/legal-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Legal Services
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/legal-translation-services" className=" d-flex align-items-center">
+                    <a href="/legal-translation-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Legal Translation
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/bank-account-opening-services" className=" d-flex align-items-center">
+                    <a href="/bank-account-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Banking Assistance
                     </a>
                   </li>
-                  
-                
+
+
                   <li className="mb-2">
-                    <a href="/family-visa-services" className=" d-flex align-items-center">
+                    <a href="/family-visa-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                     Family Visa
+                      Family Visa
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/golden-visa-services" className=" d-flex align-items-center">
+                    <a href="/golden-visa-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Golden Visa
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/tax-compliance-services" className=" d-flex align-items-center">
+                    <a href="/tax&compliance-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                     Tax & Compliance
+                      Tax & Compliance
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/trademark-registration-services" className=" d-flex align-items-center">
+                    <a href="/trademark-registration-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Trademark Protection
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/end-to-end-business-support" className=" d-flex align-items-center">
+                    <a href="/business-support-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                       Business Support
+                      Business Support
                     </a>
                   </li>
                 </ul>
               </div>
-              
+
               <div className="sidebar-widget bg-main-color text-white p-4 rounded">
                 <h5 className="mb-3">Comprehensive Business Support</h5>
-                <p className="mb-3">From startup to success, we handle all your business needs in the UAE.</p>
+                <p className="mb-3">From startup to success, we handle all your business needs in the Dubai.</p>
                 <a href="/contact" className="btn text-white main-colorbg w-100">Get Started Today</a>
               </div>
             </div>

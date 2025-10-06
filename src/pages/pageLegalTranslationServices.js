@@ -72,14 +72,14 @@ export default function PageLegalTranslationServices() {
   return (
     <>
       <Helmet>
-        <title>Legal Translation Services in UAE | Certified Translations by Bizdoc</title>
+        <title>Legal Translation Services in Dubai,UAE | Certified Translations by Bizdoc</title>
         <meta
           name="description"
-          content="Bizdoc provides certified legal translation services in UAE for corporate, personal, court, and financial documents. Ensure accurate, reliable, and UAE-approved translations for visas, contracts, and official submissions."
+          content="Bizdoc provides certified legal translation services in Dubai,UAE for corporate, personal, court, and financial documents. Ensure accurate, reliable, and Dubai,UAE-approved translations for visas, contracts, and official submissions."
         />
         <meta
           name="keywords"
-          content="Legal Translation UAE, Certified Document Translation UAE, Arabic Translation Services"
+          content="legal translation services in dubai,certified document translation dubai"
         />
 
            <link rel="icon" href="/assets/images/home/favicon.png" />

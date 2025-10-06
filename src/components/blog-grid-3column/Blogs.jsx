@@ -16,7 +16,7 @@ function Blogs() {
 
                 {/* Content */}
                 <div className="cont pt-40 d-flex flex-column flex-grow-1">
-                  <h5 className="fz-30 flex-grow-1">{values.title}</h5>
+                  <h5 className="fz-30 flex-grow-1"><a className='custom-link' href={values.link}>{values.title}</a></h5>
 
                   {/* Button fixed at bottom */}
                   <div className="mt-30">

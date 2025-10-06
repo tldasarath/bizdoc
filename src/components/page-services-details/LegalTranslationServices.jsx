@@ -6,16 +6,16 @@ function LegalTranslationServices() {
   // Service data based on the provided content
   const service = {
     id: 5,
-    Introduction: "In the UAE, many government authorities and legal bodies require documents to be submitted in Arabic. For these documents to be valid, they must be translated by certified legal translators approved by the Ministry of Justice. At Bizdoc, we provide professional legal translation services in UAE, ensuring your documents are translated accurately, reliably, and accepted by all relevant authorities. Whether you're a business submitting contracts or an individual applying for visas, our legal translation services give you the peace of mind that your paperwork is error-free and compliant.",
+    Introduction: "In the Dubai, many government authorities and legal bodies require documents to be submitted in Arabic. For these documents to be valid, they must be translated by certified legal translators approved by the Ministry of Justice. At Bizdoc, we provide professional legal translation services in Dubai, ensuring your documents are translated accurately, reliably, and accepted by all relevant authorities. Whether you're a business submitting contracts or an individual applying for visas, our legal translation services give you the peace of mind that your paperwork is error-free and compliant.",
     OurLegalTranslationServicesCover: {
       "Corporate and Commercial Documents": "Contracts, agreements, trade licenses, shareholder agreements, and company formation papers all require precise translation. We ensure every detail is clear and legally accurate.",
       "Personal Documents": "Birth certificates, marriage certificates, death certificates, and academic qualifications must often be translated for visa, family sponsorship, or immigration purposes. We handle these with care and confidentiality.",
       "Court and Legal Papers": "Court orders, power of attorney documents, affidavits, and other legal papers are translated in strict compliance with legal standards.",
       "Financial and Tax Documents": "We translate audit reports, balance sheets, VAT documents, and other financial records for legal and compliance submissions."
     },
-    WhyLegalTranslationMattersInUAE: "Translation errors can lead to document rejection, visa delays, or even legal disputes. Using certified translators ensures your documents are accepted by ministries, embassies, and courts without unnecessary back-and-forth. At Bizdoc, our team works with certified legal translators who understand both the source language and Arabic legal terminology, giving you precise translations every time.",
+    WhyLegalTranslationMattersInDubai: "Translation errors can lead to document rejection, visa delays, or even legal disputes. Using certified translators ensures your documents are accepted by ministries, embassies, and courts without unnecessary back-and-forth. At Bizdoc, our team works with certified legal translators who understand both the source language and Arabic legal terminology, giving you precise translations every time.",
     BenefitsOfChoosingBizdoc: [
-      "Certified Translations: Approved by UAE authorities, ministries, and embassies.",
+      "Certified Translations: Approved by Dubai authorities, ministries, and embassies.",
       "Accuracy & Reliability: Every word translated with attention to legal detail.",
       "Fast Turnaround: We handle urgent requests without compromising quality.",
       "Confidential Handling: Sensitive documents are kept secure and private.",
@@ -29,7 +29,7 @@ function LegalTranslationServices() {
     ]
   };
 
-  const serviceKey = "LegalTranslationServicesInUAE";
+  const serviceKey = "LegalTranslationServicesInDubai";
 
   return (
     <section className="intro section-padding">
@@ -38,7 +38,7 @@ function LegalTranslationServices() {
         <div className="row mb-60">
           <div className="col-12">
             <div className="img-full fit-img rounded-lg overflow-hidden">
-              <img src="/assets/images/services/translation.png" alt={serviceKey} className="w-75" />
+              <img src="/assets/images/services/legal-translation-services-in-dubai.png" alt={serviceKey} className="w-75" />
             </div>
           </div>
         </div>
@@ -47,8 +47,8 @@ function LegalTranslationServices() {
         <div className="row mb-50">
           <div className="col-12">
             <h6 className="sub-title main-color mb-15">Service Overview</h6>
-            <h1 className="mb-30 fw-600">Legal Translation Services in <span className='main-color'>UAE</span></h1>
-            <p className="lead-text mb-0">{service.Introduction}</p>
+            <h1 className="mb-30 fw-600">Legal Translation Services in <span className='main-color'>Dubai</span></h1>
+            <p className="lead-text mb-0">In the Dubai, many government authorities and legal bodies require documents to be submitted in Arabic. For these documents to be valid, they must be translated by certified legal translators approved by the Ministry of Justice. At <a href="/" className='main-color'>Bizdoc</a>, we provide professional legal translation services in Dubai, ensuring your documents are translated accurately, reliably, and accepted by all relevant authorities. Whether you're a business submitting contracts or an individual applying for visas, our legal translation services give you the peace of mind that your paperwork is error-free and compliant.</p>
           </div>
         </div>
         
@@ -74,10 +74,10 @@ function LegalTranslationServices() {
             )}
             
             {/* Why Legal Translation Matters */}
-            {service.WhyLegalTranslationMattersInUAE && (
+            {service.WhyLegalTranslationMattersInDubai && (
               <div className="service-section mb-50">
-                <h3 className="mb-30 fw-500">Why Legal Translation Matters in <span className='main-color'>UAE</span></h3>
-                <p className="lead-text mb-0">{service.WhyLegalTranslationMattersInUAE}</p>
+                <h3 className="mb-30 fw-500">Why Legal Translation Matters in <span className='main-color'>Dubai</span></h3>
+                <p className="lead-text mb-0">{service.WhyLegalTranslationMattersInDubai}</p>
               </div>
             )}
             
@@ -91,7 +91,7 @@ function LegalTranslationServices() {
                       {service.BenefitsOfChoosingBizdoc.map((item, index) => (
                         <li key={index} className="mb-3 d-flex align-items-start">
                           <span className="main-color mr-2">✓</span>
-                          <span>{item}</span>
+                         {index==4? <span>Complete Support: From <a className='main-color' href="/document-attestation-services-in-dubai">document attestation servces to translation</a>, everything under one roof</span>:<span>{item}</span>}
                         </li>
                       ))}
                     </ul>
@@ -103,7 +103,7 @@ function LegalTranslationServices() {
             {/* Who Needs These Services */}
             {service.WhoNeedsLegalTranslationServices && (
               <div className="service-section mb-50">
-                <h3 className="mb-30 fw-500">Who Needs Legal Translation Services in <span className='main-color'>UAE?</span></h3>
+                <h3 className="mb-30 fw-500">Who Needs Legal Translation Services in <span className='main-color'>Dubai?</span></h3>
                 <div className="row">
                   <div className="col-12">
                     <ul className="service-list">
@@ -123,91 +123,91 @@ function LegalTranslationServices() {
             <div className="service-section mb-50">
               <div className="cta-box bg-main-color text-white p-4 rounded">
                 <h4 className="mb-3">Get Certified Legal Translations Today</h4>
-                <p className="mb-0">Ensure your documents are accurately translated and legally compliant. Contact Bizdoc for professional legal translation services in the UAE.</p>
+                <p className="mb-0">Ensure your documents are accurately translated and legally compliant. Contact Bizdoc for professional legal translation services in the Dubai.</p>
               </div>
             </div>
           </div>
           
           {/* Sidebar with key information */}
-         <div className="col-lg-4">
+      <div className="col-lg-4">
             <div className="sidebar sticky-top ps-lg-4">
               <div className="sidebar-widget  p-4 rounded mb-4">
                 <h5 className="mb-3 fw-500">Our Services</h5>
                 <ul className="list-unstyled">
                   <li className="mb-2">
-                    <a href="/business-setup-services" className=" d-flex align-items-center">
+                    <a href="/business-setup-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Business Setup
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/pro-services" className=" d-flex align-items-center">
+                    <a href="/pro-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       PRO Services
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/document-attestation-services" className=" d-flex align-items-center">
+                    <a href="/document-attestation-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Document Attestation
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/legal-services" className=" d-flex align-items-center">
+                    <a href="/legal-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Legal Services
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/legal-translation-services" className=" d-flex align-items-center">
+                    <a href="/legal-translation-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Legal Translation
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/bank-account-opening-services" className=" d-flex align-items-center">
+                    <a href="/bank-account-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Banking Assistance
                     </a>
                   </li>
-                  
-                
+
+
                   <li className="mb-2">
-                    <a href="/family-visa-services" className=" d-flex align-items-center">
+                    <a href="/family-visa-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                     Family Visa
+                      Family Visa
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/golden-visa-services" className=" d-flex align-items-center">
+                    <a href="/golden-visa-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Golden Visa
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/tax-compliance-services" className=" d-flex align-items-center">
+                    <a href="/tax&compliance-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                     Tax & Compliance
+                      Tax & Compliance
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/trademark-registration-services" className=" d-flex align-items-center">
+                    <a href="/trademark-registration-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Trademark Protection
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/end-to-end-business-support" className=" d-flex align-items-center">
+                    <a href="/business-support-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                       Business Support
+                      Business Support
                     </a>
                   </li>
                 </ul>
               </div>
-              
+
               <div className="sidebar-widget bg-main-color text-white p-4 rounded">
                 <h5 className="mb-3">Comprehensive Business Support</h5>
-                <p className="mb-3">From startup to success, we handle all your business needs in the UAE.</p>
+                <p className="mb-3">From startup to success, we handle all your business needs in the Dubai.</p>
                 <a href="/contact" className="btn text-white main-colorbg w-100">Get Started Today</a>
               </div>
             </div>

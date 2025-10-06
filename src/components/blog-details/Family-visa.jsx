@@ -10,30 +10,30 @@ function FamilyVisaBlog() {
             <div className="main-post">
               <div className="item pb-60">
                 <div className="img mb-40">
-                  <img src="/assets/images/blogs/family-visa.png" alt="Family Visa Services in UAE" className="w-100" />
+                  <img src="/assets/images/blogs/family-visa-services-dubai-uae.png" alt="Family Visa Services in Dubai" className="w-100" />
                 </div>
                 
                 <article>
                   <div className="title mb-30">
-                    <h1>Family Visa Services in UAE: A Complete Guide for Expats</h1>
+                    <h1>Family Visa Services in Dubai: A Complete Guide for Expats</h1>
                   </div>
                   
                   <div className="text">
                     <h4 className="fz-24 mb-20">Introduction</h4>
                     <p>
-                      The UAE is home to millions of expats who live and work in the country. For most of them, being able to bring their families is a top priority. Thanks to the government's <strong className='main-color'>family visa services in UAE</strong>, residents can sponsor their spouse, children, and even parents to live with them.
+                      The Dubai is home to millions of expats who live and work in the country. For most of them, being able to bring their families is a top priority. Thanks to the government's <a className='main-color' href='/family-visa-services-dubai-uae'>family visa services in Dubai</a>, residents can sponsor their spouse, children, and even parents to live with them.
                     </p>
                     <p>
-                      Whether you are working in Dubai, Abu Dhabi, or another emirate, understanding the process for applying for a UAE family visa is essential to ensure a smooth and stress-free relocation for your loved ones.
+                      Whether you are working in Dubai, Abu Dhabi, or another emirate, understanding the process for applying for a Dubai family visa is essential to ensure a smooth and stress-free relocation for your loved ones.
                     </p>
                   </div>
 
                   <div className="title mt-30">
-                    <h4>Who Can Sponsor a Family in UAE?</h4>
+                    <h4>Who Can Sponsor a Family in Dubai?</h4>
                   </div>
                   <div className="text mt-20">
                     <p>
-                      To apply for <span className='main-color'>family visa services in UAE</span>, the sponsor must meet certain criteria:
+                      To apply for <span className='main-color'>family visa services in Dubai</span>, the sponsor must meet certain criteria:
                     </p>
                     
                     <div className="requirements-list mt-30 mb-30">
@@ -54,7 +54,7 @@ function FamilyVisaBlog() {
                               <i className="ti-id-badge fz-24 main-color"></i>
                             </div>
                             <div className="cont">
-                              <h6 className="fz-18 mb-5">Valid UAE residency visa</h6>
+                              <h6 className="fz-18 mb-5">Valid Dubai residency visa</h6>
                               <p className="fz-16 mb-0">The sponsor must already have a residence visa.</p>
                             </div>
                           </div>
@@ -79,7 +79,7 @@ function FamilyVisaBlog() {
                   <div className="text mt-20">
                     <div className="sponsored-types mt-30">
                       <div className="type-item p-4 rounded mb-30">
-                        <h5 className="mb-15">Spouse Visa UAE</h5>
+                        <h5 className="mb-15">Spouse Visa Dubai</h5>
                         <ul className="rest mt-15 mb-0">
                           <li>A husband can sponsor his wife.</li>
                           <li>A wife may sponsor her husband under certain conditions (higher salary thresholds).</li>
@@ -105,11 +105,11 @@ function FamilyVisaBlog() {
                   </div>
 
                   <div className="title mt-50">
-                    <h4>Documents Required for UAE Family Visa Application</h4>
+                    <h4>Documents Required for Dubai Family Visa Application</h4>
                   </div>
                   <div className="text mt-20">
                     <p>
-                      To apply for <span className='main-color'>family visa services UAE</span>, the following documents are generally required:
+                      To apply for <span className='main-color'>family visa services Dubai</span>, the following documents are generally required:
                     </p>
                     
                     <div className="documents-list bg-cream p-4 rounded mt-30 mb-30">
@@ -120,7 +120,7 @@ function FamilyVisaBlog() {
                         </li>
                         <li className="mb-10 d-flex align-items-start">
                           <i className="ti-file main-color mr-10 mt-5"></i>
-                          <span>UAE residence visa and Emirates ID of sponsor.</span>
+                          <span>Dubai residence visa and Emirates ID of sponsor.</span>
                         </li>
                         <li className="mb-10 d-flex align-items-start">
                           <i className="ti-file main-color mr-10 mt-5"></i>
@@ -151,7 +151,7 @@ function FamilyVisaBlog() {
                   </div>
 
                   <div className="title mt-50">
-                    <h4>Process for Applying for Family Visa in UAE</h4>
+                    <h4>Process for Applying for Family Visa in Dubai</h4>
                   </div>
                   <div className="text mt-20">
                     <div className="steps-timeline position-relative mt-40">
@@ -171,7 +171,7 @@ function FamilyVisaBlog() {
                         </div>
                         <div className="step-content">
                           <h5 className="mb-10">Medical Tests</h5>
-                          <p className="mb-0">Adults must undergo medical screening in UAE (HIV, TB, and other tests).</p>
+                          <p className="mb-0">Adults must undergo medical screening in Dubai (HIV, TB, and other tests).</p>
                         </div>
                       </div>
                       
@@ -198,7 +198,7 @@ function FamilyVisaBlog() {
                   </div>
 
                   <div className="title mt-50">
-                    <h4>Validity of Family Visa UAE</h4>
+                    <h4>Validity of Family Visa Dubai</h4>
                   </div>
                   <div className="text mt-20">
                     <p>
@@ -210,7 +210,7 @@ function FamilyVisaBlog() {
                   </div>
 
                   <div className="title mt-50">
-                    <h4>Cost of Family Visa in Dubai & UAE</h4>
+                    <h4>Cost of Family Visa in Dubai </h4>
                   </div>
                   <div className="text mt-20">
                     <p>
@@ -246,7 +246,7 @@ function FamilyVisaBlog() {
                   </div>
 
                   <div className="title mt-50">
-                    <h4>Benefits of Family Visa Services in UAE</h4>
+                    <h4>Benefits of Family Visa Services in Dubai</h4>
                   </div>
                   <div className="text mt-20">
                     <div className="benefits-list mt-30 mb-30">
@@ -280,7 +280,7 @@ function FamilyVisaBlog() {
                             </div>
                             <div className="cont">
                               <h6 className="fz-18 mb-5">Education Opportunities</h6>
-                              <p className="fz-16 mb-0">Children's education in UAE schools and universities.</p>
+                              <p className="fz-16 mb-0">Children's education in Dubai schools and universities.</p>
                             </div>
                           </div>
                         </div>
@@ -291,7 +291,7 @@ function FamilyVisaBlog() {
                             </div>
                             <div className="cont">
                               <h6 className="fz-18 mb-5">Long-term Residency</h6>
-                              <p className="fz-16 mb-0">Long-term residency opportunities with Golden Visa UAE eligibility for families.</p>
+                              <p className="fz-16 mb-0">Long-term residency opportunities with Golden Visa Dubai eligibility for families.</p>
                             </div>
                           </div>
                         </div>
@@ -300,11 +300,11 @@ function FamilyVisaBlog() {
                   </div>
 
                   <div className="title mt-50">
-                    <h4>Why Choose Bizdoc for Family Visa Services in UAE?</h4>
+                    <h4>Why Choose Bizdoc for Family Visa Services in Dubai?</h4>
                   </div>
                   <div className="text mt-20">
                     <p>
-                      Applying for a UAE family visa can be confusing due to documentation, attestations, and government approvals. At Bizdoc, we provide:
+                      Applying for a Dubai family visa can be confusing due to documentation, attestations, and government approvals. At Bizdoc, we provide:
                     </p>
                     
                     <div className="services-list p-4 rounded mt-30 mb-30">
@@ -341,7 +341,7 @@ function FamilyVisaBlog() {
                     </div>
                     
                     <p className="mt-30">
-                      With our expertise, you can bring your loved ones to the UAE without delays or complications.
+                      With our expertise, you can bring your loved ones to the Dubai without delays or complications.
                     </p>
                   </div>
 
@@ -350,13 +350,13 @@ function FamilyVisaBlog() {
                   </div>
                   <div className="text mt-20">
                     <p>
-                      The <strong className='main-color'>family visa services in UAE</strong> make it possible for expats to enjoy life with their loved ones while building a future in the Emirates. Whether it's sponsoring your spouse, children, or parents, the process requires careful documentation and government approvals.
+                      The <strong className='main-color'>family visa services in Dubai</strong> make it possible for expats to enjoy life with their loved ones while building a future in the Emirates. Whether it's sponsoring your spouse, children, or parents, the process requires careful documentation and government approvals.
                     </p>
                     <p>
                       By partnering with Bizdoc, you can ensure that your <strong className='main-color'>family visa in Dubai</strong> is processed smoothly and efficiently.
                     </p>
                     <p className="mt-20">
-                      📞 Contact Bizdoc today for trusted family visa consultants in UAE, and let us help you reunite with your family.
+                      📞 Contact Bizdoc today for trusted family visa consultants in Dubai, and let us help you reunite with your family.
                     </p>
                   </div>
                 </article>

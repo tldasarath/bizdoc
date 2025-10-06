@@ -72,14 +72,14 @@ export default function PageGoldenVisaServices() {
   return (
     <>
       <Helmet>
-        <title>Golden Visa Services in UAE | Bizdoc</title>
+        <title>Golden Visa Services in Dubai,UAE | Bizdoc</title>
         <meta
           name="description"
-          content="Secure long-term UAE residency with Bizdoc’s Golden Visa services. We assist investors, entrepreneurs, skilled professionals, and exceptional talents with eligibility assessment, document preparation, application submission, and renewals for a smooth, hassle-free process."
+          content="Secure long-term Dubai,UAE residency with Bizdoc’s Golden Visa services in Dubai. We assist investors, entrepreneurs, skilled professionals,with eligibility assessment, document preparation, application submission, and renewals."
         />
         <meta
           name="keywords"
-          content="Golden Visa UAE, UAE Residency Visa, Golden Visa Services"
+          content="golden visa services in dubai,dubai residency visa,golden visa services"
         />
            <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />

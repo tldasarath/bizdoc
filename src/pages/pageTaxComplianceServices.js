@@ -72,14 +72,14 @@ export default function PageTaxComplianceServices() {
   return (
     <>
       <Helmet>
-        <title>Tax & Compliance Services in UAE | Bizdoc</title>
+        <title>Tax & Compliance Services in Dubai| Bizdoc</title>
         <meta
           name="description"
-          content="Stay compliant with UAE tax and corporate laws using Bizdoc’s expert tax and compliance services. We assist with VAT registration and filing, corporate tax, audits, compliance checks, and advisory services for startups, SMEs, and corporates."
+          content="Stay compliant with Dubai, tax and corporate laws using Bizdoc’s eTax & Compliance Services in Dubai. We assist with VAT registration and filing, corporate tax, audits, compliance checks, and advisory services."
         />
         <meta
           name="keywords"
-          content="Tax Services UAE, Corporate Compliance UAE, VAT Filing UAE"
+          content="tax & compliance services in dubai"
         />
            <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />

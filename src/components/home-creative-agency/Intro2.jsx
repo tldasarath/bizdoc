@@ -18,7 +18,7 @@ function Intro2() {
         <div className="row xlg-marg">
           <div className="col-lg-5">
             <div className="img md-mb50">
-              <img src="/assets/images/about-us/why-choose.png" alt="" />
+              <img src="/assets/images/about-us/golden-visa-services-in-dubai.png" alt="" />
             </div>
           </div>
           <div className="col-lg-6 valign">
@@ -26,18 +26,18 @@ function Intro2() {
               <div className="sec-head mb-50">
                 <h3 className="sub-title main-color mb-15">Why choose us?</h3>
                 <h6>
-Bizdoc offers complete businessman services, including company formation, visas, PRO support, bank accounts, legal help, tax and compliance, and Golden Visa solutions. With local knowledge and clear guidance, we make doing business in the UAE easy and smooth.
+Bizdoc offers complete businessman services, including company formation, visas, PRO support, bank accounts, legal help, tax and compliance, and Golden Visa solutions. With local knowledge and clear guidance, we make doing business in the Dubai,UAE easy and smooth.
                 </h6>
               </div>
               <div className="accordion bord">
                 <div className="item active wow fadeInUp" data-wow-delay=".1s">
                   <div onClick={openAccordion} className="title">
-                    <h6> What services does Bizdoc provide for business setup in UAE?</h6>
+                    <h6> What services does Bizdoc provide for <a className='custom-link' href="/business-setup-in-dubai-a-complete-guide">business setup in Dubai</a>?</h6>
                     <span className="ico ti-plus"></span>
                   </div>
                   <div className="accordion-info">
                     <p className="">
-                     Bizdoc offers complete <span className='main-color'>business setup services in UAE</span>, including company formation in Dubai, trade license registration, PRO services, visa assistance,<span className='main-color'>bank account opening</span>, and corporate compliance support.
+                     Bizdoc offers complete <a className='main-color' href='/business-setup-services-in-dubai'>business setup services in Dubai,UAE</a>, including company formation in Dubai, trade license registration, PRO services, visa assistance,<a href='/bank-account-services-in-dubai' className='main-color'>bank account opening</a>, and corporate compliance support.
 
                     </p>
                   </div>
@@ -59,12 +59,12 @@ Bizdoc offers complete businessman services, including company formation, visas,
 
                 <div className="item wow fadeInUp" data-wow-delay=".5s">
                   <div onClick={openAccordion} className="title">
-                    <h6>What is the UAE Golden Visa and can Bizdoc assist with it?</h6>
+                    <h6>What is the Dubai Golden Visa and can Bizdoc assist with it?</h6>
                     <span className="ico ti-plus"></span>
                   </div>
                   <div className="accordion-info">
                     <p className="">
-                    The <span className='main-color'>UAE Golden Visa</span> is a long-term residency visa (5–10 years) for investors, entrepreneurs, professionals, and outstanding talents. Bizdoc provides complete <span className='main-color'>Golden Visa services in UAE</span>, including eligibility checks, document preparation, application submission, and renewals.
+                    The <span className='main-color'>Dubai Golden Visa</span> is a long-term residency visa (5–10 years) for investors, entrepreneurs, professionals, and outstanding talents. Bizdoc provides complete <a href='/golden-visa-services-in-dubai' className='main-color '>Golden Visa services in Dubai,UAE</a>, including eligibility checks, document preparation, application submission, and renewals.
 
                     </p>
                   </div>

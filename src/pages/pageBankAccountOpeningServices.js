@@ -72,14 +72,14 @@ export default function PageBankAccountOpeningServices() {
   return (
     <>
       <Helmet>
-        <title>Bank Account Opening Services in UAE | Bizdoc</title>
+        <title>Bank Account Opening Services in Dubai,UAE | Bizdoc</title>
         <meta
           name="description"
-          content="Open your business bank account in UAE with ease using Bizdoc. We assist startups, SMEs, and international companies with bank selection, documentation, compliance, and faster approvals for smooth account setup."
+          content="Open your business bank account services in Dubai,UAE with ease using Bizdoc. We assist startups, SMEs, and international companies with bank selection, documentation, compliance, and faster approvals for smooth account setup."
         />
         <meta
           name="keywords"
-          content="Bank Account UAE, Business Banking UAE, UAE Corporate Account"
+          content="bank account services in dubai,business banking dubai,dubai corporate account"
         />
 
            <link rel="icon" href="/assets/images/home/favicon.png" />

@@ -7,9 +7,9 @@ function GoldenVisaServices() {
   // Service data based on your provided content
   const service = {
     id: id || 7,
-    title: "Golden Visa Services in UAE",
+    title: "Golden Visa Services in Dubai",
     subtitle: "Secure Long-Term Residency with Ease",
-    Introduction: "The UAE Golden Visa program offers investors, entrepreneurs, skilled professionals, and exceptional talents the opportunity to live, work, and study in the UAE for up to 10 years without the need for a sponsor. While this visa provides unmatched benefits, the application process can be complex, requiring eligibility checks, multiple documents, and government approvals. At Bizdoc, we provide professional Golden Visa services in UAE, guiding you step by step to ensure a smooth, error-free application.",
+    Introduction: "The Dubai Golden Visa program offers investors, entrepreneurs, skilled professionals, and exceptional talents the opportunity to live, work, and study in the Dubai for up to 10 years without the need for a sponsor. While this visa provides unmatched benefits, the application process can be complex, requiring eligibility checks, multiple documents, and government approvals. At Bizdoc, we provide professional Golden Visa services in Dubai, guiding you step by step to ensure a smooth, error-free application.",
     WhoCanApply: [
       {
         category: "Investors",
@@ -46,11 +46,11 @@ function GoldenVisaServices() {
       "Multiple entry benefits.",
       "Greater stability for investors and professionals."
     ],
-    WhyChooseUs: "Applying on your own can be confusing and time-consuming. Bizdoc ensures a hassle-free process by handling everything from eligibility to final approval. Our Golden Visa services in Dubai and across the UAE give you a secure pathway to residency without delays.",
-    CallToAction: "Secure your future in the UAE with the Golden Visa. Let Bizdoc handle the complexities while you focus on your life and business."
+    WhyChooseUs: "Applying on your own can be confusing and time-consuming. Bizdoc ensures a hassle-free process by handling everything from eligibility to final approval. Our Golden Visa services in Dubai and across the Dubai give you a secure pathway to residency without delays.",
+    CallToAction: "Secure your future in the Dubai with the Golden Visa. Let Bizdoc handle the complexities while you focus on your life and business."
   };
 
-  const serviceKey = "GoldenVisaServicesInUAE";
+  const serviceKey = "GoldenVisaServicesInDubai";
 
   return (
     <section className="intro section-padding">
@@ -59,7 +59,7 @@ function GoldenVisaServices() {
         <div className="row mb-60">
           <div className="col-12">
             <div className="img-full fit-img rounded-lg overflow-hidden">
-              <img src="/assets/images/services/golden-visa.png" alt={serviceKey} className="w-75" />
+              <img src="/assets/images/services/golden-visa-services-in-dubai.png" alt={serviceKey} className="w-75" />
             </div>
           </div>
         </div>
@@ -68,9 +68,9 @@ function GoldenVisaServices() {
         <div className="row mb-50">
           <div className="col-12">
             <h6 className="sub-title main-color mb-15">Service Overview</h6>
-            <h1 className="mb-10 fw-600">Golden Visa Services in <span className='main-color'>UAE</span></h1>
+            <h1 className="mb-10 fw-600">Golden Visa Services in <span className='main-color'>Dubai</span></h1>
             <h4 className="mb-30 text-muted">{service.subtitle}</h4>
-            <p className="lead-text mb-0">{service.Introduction}</p>
+            <p className="lead-text mb-0">The Dubai Golden Visa program offers investors, entrepreneurs, skilled professionals, and exceptional talents the opportunity to live, work, and study in the Dubai for up to 10 years without the need for a sponsor. While this visa provides unmatched benefits, the application process can be complex, requiring eligibility checks, multiple documents, and government approvals. At <a className="main-color" href="/">Bizdoc</a>, we provide professional Golden Visa services in Dubai, guiding you step by step to ensure a smooth, error-free application.</p>
           </div>
         </div>
         
@@ -110,7 +110,7 @@ function GoldenVisaServices() {
                         <span className="main-color mr-2">{index + 1}.</span>
                         {serviceName}
                       </h5>
-                      <p className="mb-0 ps-4">{serviceDesc}</p>
+                     {serviceName=="Eligibility Assessment" ?<p className="mb-0 ps-4">We review your profile, financials, and documents to confirm if you qualify for the <a className='main-color' href="/golden-visa-dubai-uae">Golden Visa Dubai,UAE</a> under any category.</p>:<p className="mb-0 ps-4">{serviceDesc}</p>}
                     </div>
                   ))}
                 </div>
@@ -120,7 +120,7 @@ function GoldenVisaServices() {
             {/* Benefits */}
             {service.Benefits && (
               <div className="service-section mb-50">
-                <h3 className="mb-30 fw-500">Benefits of a UAE Golden Visa</h3>
+                <h3 className="mb-30 fw-500">Benefits of a Dubai Golden Visa</h3>
                 <div className="row">
                   <div className="col-12">
                     <ul className="benefits-list">
@@ -150,7 +150,7 @@ function GoldenVisaServices() {
             {service.CallToAction && (
               <div className="service-section mb-50">
                 <div className="cta-box bg-main-color text-white p-4 rounded">
-                  <h4 className="mb-3">Secure Your Future in the UAE</h4>
+                  <h4 className="mb-3">Secure Your Future in the Dubai</h4>
                   <p className="mb-0">{service.CallToAction}</p>
                 </div>
               </div>
@@ -164,79 +164,79 @@ function GoldenVisaServices() {
                 <h5 className="mb-3 fw-500">Our Services</h5>
                 <ul className="list-unstyled">
                   <li className="mb-2">
-                    <a href="/business-setup-services" className=" d-flex align-items-center">
+                    <a href="/business-setup-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Business Setup
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/pro-services" className=" d-flex align-items-center">
+                    <a href="/pro-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       PRO Services
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/document-attestation-services" className=" d-flex align-items-center">
+                    <a href="/document-attestation-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Document Attestation
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/legal-services" className=" d-flex align-items-center">
+                    <a href="/legal-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Legal Services
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/legal-translation-services" className=" d-flex align-items-center">
+                    <a href="/legal-translation-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Legal Translation
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/bank-account-opening-services" className=" d-flex align-items-center">
+                    <a href="/bank-account-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Banking Assistance
                     </a>
                   </li>
-                  
-                
+
+
                   <li className="mb-2">
-                    <a href="/family-visa-services" className=" d-flex align-items-center">
+                    <a href="/family-visa-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                     Family Visa
+                      Family Visa
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/golden-visa-services" className=" d-flex align-items-center">
+                    <a href="/golden-visa-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Golden Visa
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/tax-compliance-services" className=" d-flex align-items-center">
+                    <a href="/tax&compliance-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                     Tax & Compliance
+                      Tax & Compliance
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/trademark-registration-services" className=" d-flex align-items-center">
+                    <a href="/trademark-registration-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Trademark Protection
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/end-to-end-business-support" className=" d-flex align-items-center">
+                    <a href="/business-support-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                       Business Support
+                      Business Support
                     </a>
                   </li>
                 </ul>
               </div>
-              
+
               <div className="sidebar-widget bg-main-color text-white p-4 rounded">
                 <h5 className="mb-3">Comprehensive Business Support</h5>
-                <p className="mb-3">From startup to success, we handle all your business needs in the UAE.</p>
+                <p className="mb-3">From startup to success, we handle all your business needs in the Dubai.</p>
                 <a href="/contact" className="btn text-white main-colorbg w-100">Get Started Today</a>
               </div>
             </div>

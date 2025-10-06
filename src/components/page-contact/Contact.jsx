@@ -186,7 +186,7 @@ const handleSubmit = async (e) => {
 
               {/* Intro Text */}
               <p className="mb-40">
-                At Bizdoc, we are ready to support you with all your business
+                At <a href="/" className="main-color">Bizdoc</a>, we are ready to support you with all your business
                 needs. Whether it’s company setup, visas, PRO services, or legal
                 assistance, our team is here to guide you.{" "}
                 <strong>Get in touch with us today.</strong>

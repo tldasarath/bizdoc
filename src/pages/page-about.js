@@ -74,18 +74,19 @@ export default function PageAbout() {
   return (
     <>
       <Helmet>
-        <title>About Bizdoc – Leading Business Setup Company in UAE</title>
+        <title>About us – Leading Business Setup Company in Dubai</title>
            <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
         <meta
           name="description"
-          content="Bizdoc is a leading business setup company in UAE offering company formation, PRO services, visa processing, Golden Visa assistance, bank account opening, and compliance solutions. To Know more..contact us"
+          content="Bizdoc is a leading business setup company in Dubai, offering company formation, PRO services, visa processing, Golden Visa assistance, bank account opening, and compliance solutions. To Know more..contact us"
         />
         <meta
           name="keywords"
-          content="Business Setup Company in UAE, Company Formation Dubai, PRO Services UAE"
+          content="business setup company in dubai, leading business setup company in dubai, company formation dubai, pro services dubai
+"
         />
 
         <link

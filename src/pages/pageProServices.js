@@ -72,14 +72,14 @@ export default function PagePROServices() {
   return (
     <>
       <Helmet>
-        <title>PRO Services in Dubai,UAE | Government Approvals & Visas</title>
+        <title>PRO Services in Dubai | Government Approvals & Visas</title>
         <meta
           name="description"
-          content="Bizdoc offers professional PRO services in UAE, including visa processing, labor contracts, Emirates ID, trade license renewals, and approvals."
+          content="Bizdoc offers professional PRO services in Dubai, including visa processing, labor contracts, Emirates ID, trade license renewals, and approvals."
         />
         <meta
           name="keywords"
-          content="PRO services in Dubai,UAE, PRO services Dubai, visa processing UAE, labor contract services, trade license renewal Dubai"
+          content="pro services in dubai, visa processing dubai,labor contract services, trade license renewal dubai"
         />           <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

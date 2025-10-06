@@ -69,14 +69,14 @@ export default function BusinessSetup() {
   return (
     <>
       <Helmet>
-        <title>Business Setup in UAE: Complete Guide to Starting a Company in Dubai</title>
+        <title>Business Setup in Dubai,UAE: Complete Guide to Starting a Company in Dubai</title>
         <meta
           name="description"
           content="Discover how to start a business setup in UAE. Learn about company formation in Dubai, licensing, PRO services, Golden Visa, and bank account opening."
         />
         <meta
           name="keywords"
-          content="business setup in UAE, company formation Dubai, PRO services UAE, Golden Visa UAE, bank account opening Dubai"
+          content="business setup in dubai,uae,company formation service dubai"
         />
           <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />

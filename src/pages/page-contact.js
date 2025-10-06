@@ -68,14 +68,14 @@ export default function PageContact() {
   return (
     <>
       <Helmet>
-        <title>Contact Bizdoc UAE | Business Setup Consultation in Dubai,Uae</title>
+        <title>Contact | Company Formation Services in Dubai</title>
         <meta
           name="description"
-          content="Contact Bizdoc UAE for expert business setup consultation Dubai,uae, visa services, PRO support, bank account opening, and compliance consultation."
+          content="Contact Bizdoc for expert business setup consultation in Dubai, company formation services in dubai,PRO support, bank account opening etc"
         />
         <meta
           name="keywords"
-          content="business setup consultation Dubai,uae, company formation support UAE, visa services contact UAE, corporate services Bizdoc"
+          content="company formation services in dubai,business setup consultation in dubai,company formation support Dubai,UAE"
         />
            <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />

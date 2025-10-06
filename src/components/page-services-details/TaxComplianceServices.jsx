@@ -7,9 +7,9 @@ function TaxComplianceServices() {
   // Service data based on your provided content
   const service = {
     id: id || 9,
-    title: "Tax & Compliance Services in UAE",
+    title: "Tax & Compliance Services in Dubai",
     subtitle: "Stay Compliant and Protect Your Business",
-    Introduction: "The UAE has introduced corporate tax and VAT to strengthen its financial system. For businesses, staying compliant with these regulations is essential to avoid penalties and build credibility. Bizdoc provides complete tax and compliance services in UAE, helping you manage financial obligations with accuracy and confidence.",
+    Introduction: "The Dubai has introduced corporate tax and VAT to strengthen its financial system. For businesses, staying compliant with these regulations is essential to avoid penalties and build credibility. Bizdoc provides complete tax and compliance services in Dubai, helping you manage financial obligations with accuracy and confidence.",
     OurServicesCover: {
       "VAT Registration & Filing": "We assist with VAT registration, quarterly filing, and returns submission as per Federal Tax Authority (FTA) rules.",
       "Corporate Tax Support": "Our experts prepare and submit corporate tax filings, ensuring compliance with new regulations.",
@@ -35,13 +35,13 @@ function TaxComplianceServices() {
       },
       {
         category: "International Businesses",
-        description: "Adapting to UAE's unique tax framework."
+        description: "Adapting to Dubai's unique tax framework."
       }
     ],
-    CallToAction: "Ensure your business stays compliant with UAE tax regulations. Let Bizdoc handle your tax and compliance needs while you focus on growing your business."
+    CallToAction: "Ensure your business stays compliant with Dubai tax regulations. Let Bizdoc handle your tax and compliance needs while you focus on growing your business."
   };
 
-  const serviceKey = "TaxComplianceServicesInUAE";
+  const serviceKey = "TaxComplianceServicesInDubai";
 
   return (
     <section className="intro section-padding">
@@ -50,7 +50,7 @@ function TaxComplianceServices() {
         <div className="row mb-60">
           <div className="col-11">
             <div className="img-full fit-img rounded-lg overflow-hidden">
-              <img src="/assets/images/services/tax.png" alt={serviceKey} className="w-75" />
+              <img src="/assets/images/services/tax & compliance services in dubai.png" alt={serviceKey} className="w-75" />
             </div>
           </div>
         </div>
@@ -59,9 +59,9 @@ function TaxComplianceServices() {
         <div className="row mb-50">
           <div className="col-12">
             <h6 className="sub-title main-color mb-15">Service Overview</h6>
-            <h1 className="mb-10 fw-600">Tax & Compliance Services in <span className='main-color'>UAE</span></h1>
+            <h1 className="mb-10 fw-600">Tax & Compliance Services in <span className='main-color'>Dubai</span></h1>
             <h4 className="mb-30 text-muted">{service.subtitle}</h4>
-            <p className="lead-text mb-0">{service.Introduction}</p>
+            <p className="lead-text mb-0">The Dubai has introduced corporate tax and VAT to strengthen its financial system. For businesses, staying compliant with these regulations is essential to avoid penalties and build credibility. <a href="/" className='main-color'>Bizdoc</a> provides complete tax and compliance services in Dubai, helping you manage financial obligations with accuracy and confidence.</p>
           </div>
         </div>
         
@@ -89,9 +89,9 @@ function TaxComplianceServices() {
             {/* Why Important */}
             {service.WhyImportant && (
               <div className="service-section mb-50">
-                <h3 className="mb-30 fw-500">Why Tax Compliance is Important in UAE</h3>
+                <h3 className="mb-30 fw-500">Why Tax Compliance is Important in Dubai</h3>
                 <div className="mt-4 p-4  rounded">
-                  <p className="mb-0">{service.WhyImportant}</p>
+                  <p className="mb-0">Non-compliance with VAT or corporate tax laws can result in fines, reputational damage, or license suspension. Our <a href="/business-setup-services-in-dubai" className='main-color'>business setup services in Dubai</a> at Bizdoc ensure your obligations are handled correctly, protecting your business and giving you confidence.</p>
                 </div>
               </div>
             )}
@@ -155,79 +155,79 @@ function TaxComplianceServices() {
                 <h5 className="mb-3 fw-500">Our Services</h5>
                 <ul className="list-unstyled">
                   <li className="mb-2">
-                    <a href="/business-setup-services" className=" d-flex align-items-center">
+                    <a href="/business-setup-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Business Setup
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/pro-services" className=" d-flex align-items-center">
+                    <a href="/pro-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       PRO Services
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/document-attestation-services" className=" d-flex align-items-center">
+                    <a href="/document-attestation-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Document Attestation
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/legal-services" className=" d-flex align-items-center">
+                    <a href="/legal-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Legal Services
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/legal-translation-services" className=" d-flex align-items-center">
+                    <a href="/legal-translation-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Legal Translation
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/bank-account-opening-services" className=" d-flex align-items-center">
+                    <a href="/bank-account-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Banking Assistance
                     </a>
                   </li>
-                  
-                
+
+
                   <li className="mb-2">
-                    <a href="/family-visa-services" className=" d-flex align-items-center">
+                    <a href="/family-visa-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                     Family Visa
+                      Family Visa
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/golden-visa-services" className=" d-flex align-items-center">
+                    <a href="/golden-visa-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Golden Visa
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/tax-compliance-services" className=" d-flex align-items-center">
+                    <a href="/tax&compliance-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                     Tax & Compliance
+                      Tax & Compliance
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/trademark-registration-services" className=" d-flex align-items-center">
+                    <a href="/trademark-registration-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Trademark Protection
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/end-to-end-business-support" className=" d-flex align-items-center">
+                    <a href="/business-support-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                       Business Support
+                      Business Support
                     </a>
                   </li>
                 </ul>
               </div>
-              
+
               <div className="sidebar-widget bg-main-color text-white p-4 rounded">
                 <h5 className="mb-3">Comprehensive Business Support</h5>
-                <p className="mb-3">From startup to success, we handle all your business needs in the UAE.</p>
+                <p className="mb-3">From startup to success, we handle all your business needs in the Dubai.</p>
                 <a href="/contact" className="btn text-white main-colorbg w-100">Get Started Today</a>
               </div>
             </div>

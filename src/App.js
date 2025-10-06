@@ -81,11 +81,11 @@ function App() {
         )}
       <Routes>
         {/* <Route path="/blog-classic" element={<BlogClassic />} /> */}
-        <Route path="/business-setup" element={<BusinessSetup />} />
-        <Route path="/golden-visa" element={<GoldenVisa />} />
-        <Route path="/family-visa" element={<FamilyVisa />} />
-        <Route path="/freezone" element={<Freezone />} />
-        <Route path="/business-setup" element={<BusinessSetup />} />
+        <Route path="/business-setup-in-dubai-a-complete-guide" element={<BusinessSetup />} />
+        <Route path="/golden-visa-dubai-uae" element={<GoldenVisa />} />
+        <Route path="/family-visa-services-dubai-uae" element={<FamilyVisa />} />
+        <Route path="/business-setup-in-dubai-freezone" element={<Freezone />} />
+        {/* <Route path="/business-setup" element={<BusinessSetup />} /> */}
         <Route path="/blogs" element={<BlogGridSidebar />} />
        
         <Route path="/" element={<HomeMain />} />
@@ -101,47 +101,47 @@ function App() {
           element={<PageServicesDetails />}
         />
         <Route
-          path="/business-setup-services"
+          path="/business-setup-services-in-dubai"
           element={<PageBusinessSetupServices/>}
           />
         <Route
-          path="/pro-services"
+          path="/pro-services-in-dubai"
           element={<PagePROServices/>}
           />
           <Route
-            path="/document-attestation-services"
+            path="/document-attestation-services-in-dubai"
             element={<PageDocumentAttestationServices/>}
           />
           <Route
-            path="/legal-services"
+            path="/legal-services-in-dubai"
             element={<PageLegalServices/>}
           />
         <Route
-          path="/legal-translation-services"
+          path="/legal-translation-services-in-dubai"
           element={<PageLegalTranslationServices/>}
           />
         <Route
-          path="/bank-account-opening-services"
+          path="/bank-account-services-in-dubai"
           element={<PageBankAccountOpeningServices/>}
           />
         <Route
-          path="/family-visa-services"
+          path="/family-visa-services-in-dubai"
           element={<PageFamilyVisaServices/>}
           />
         <Route
-          path="/golden-visa-services"
+          path="/golden-visa-services-in-dubai"
           element={<PageGoldenVisaServices/>}
           />
         <Route
-          path="/tax-compliance-services"
+          path="/tax&compliance-services-in-dubai"
           element={<PageTaxComplianceServices/>}
         />
         <Route
-          path="/trademark-registration-services"
+          path="/trademark-registration-services-in-dubai"
           element={<PageTrademarkRegistrationServices/>}
         />
         <Route
-          path="/end-to-end-business-support"
+          path="/business-support-in-dubai"
           element={<PageEndToEndBusinessSupport/>}
           />
         <Route path="/services" element={<PageServices />} />

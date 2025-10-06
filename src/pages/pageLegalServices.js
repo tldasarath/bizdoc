@@ -72,16 +72,16 @@ export default function PageLegalServices() {
   return (
     <>
       <Helmet>
-<title>Legal Services & Legal Assistance in UAE | Bizdoc</title>
-<meta
-  name="description"
-  content="Bizdoc offers expert legal services in UAE for businesses and individuals. Get contract drafting, dispute resolution, corporate compliance, and personal legal assistance with reliable guidance and full confidentiality."
-/>
-<meta
-  name="keywords"
-  content="Legal Services UAE, Corporate Legal Assistance UAE, Contract Drafting UAE"
-/>
-           <link rel="icon" href="/assets/images/home/favicon.png" />
+        <title>Legal Services in Dubai | Bizdoc Businessman Services</title>
+        <meta
+          name="description"
+          content="Bizdoc offers expert legal services in Dubai for businesses and individuals. Get contract drafting, dispute resolution, corporate compliance, and personal legal assistance with reliable guidance ."
+        />
+        <meta
+          name="keywords"
+          content="legal services in dubai,corporate legal assistance dubai, contract drafting dubai"
+        />
+        <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />

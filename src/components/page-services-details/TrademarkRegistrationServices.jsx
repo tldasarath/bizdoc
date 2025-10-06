@@ -7,7 +7,7 @@ function TrademarkRegistrationServices() {
   // Service data based on your provided content
   const service = {
     id: id || 10,
-    Introduction: "In today's competitive market, your brand is one of your most valuable assets. Registering your trademark in the UAE gives you legal ownership of your brand name, logo, slogan, or design, and prevents others from using it without permission. Bizdoc offers professional trademark registration services in UAE, ensuring your intellectual property is legally protected.",
+    Introduction: "In today's competitive market, your brand is one of your most valuable assets. Registering your trademark in the Dubai gives you legal ownership of your brand name, logo, slogan, or design, and prevents others from using it without permission. Bizdoc offers professional trademark registration services in Dubai, ensuring your intellectual property is legally protected.",
     WhyRegister: [
       "Safeguard your brand identity.",
       "Gain exclusive legal rights to your logo, brand name, or slogan.",
@@ -31,15 +31,15 @@ function TrademarkRegistrationServices() {
     ],
     WhoCanBenefit: [
       "Startups looking to protect their brand identity",
-      "Established businesses expanding to the UAE market",
+      "Established businesses expanding to the Dubai market",
       "Franchise businesses requiring trademark protection",
       "E-commerce businesses building brand recognition",
       "Companies with unique products or services"
     ],
-    CallToAction: "Registering a trademark requires careful attention to detail and proper legal steps. With Bizdoc, you get expert guidance, quick filing, and reliable protection for your brand. Our trademark registration services in Dubai and across the UAE safeguard your intellectual property so you can grow your business with confidence."
+    CallToAction: "Registering a trademark requires careful attention to detail and proper legal steps. With Bizdoc, you get expert guidance, quick filing, and reliable protection for your brand. Our trademark registration services in Dubai and across the Dubai safeguard your intellectual property so you can grow your business with confidence."
   };
 
-  const serviceKey = "TrademarkRegistrationInUAE";
+  const serviceKey = "TrademarkRegistrationInDubai";
 
   return (
     <section className="intro section-padding">
@@ -48,7 +48,7 @@ function TrademarkRegistrationServices() {
         <div className="row mb-60">
           <div className="col-11">
             <div className="img-full fit-img rounded-lg overflow-hidden">
-              <img src="/assets/images/services/tm.png" alt={serviceKey} className="w-75" />
+              <img src="/assets/images/services/trademark-registration-services-in-dubai.png" alt={serviceKey} className="w-75" />
             </div>
           </div>
         </div>
@@ -57,9 +57,9 @@ function TrademarkRegistrationServices() {
         <div className="row mb-50">
           <div className="col-12">
             <h6 className="sub-title main-color mb-15">Service Overview</h6>
-            <h1 className="mb-30 fw-600">Trademark Registration in <span className='main-color'>UAE</span></h1>
+            <h1 className="mb-30 fw-600">Trademark Registration in <span className='main-color'>Dubai</span></h1>
             <h3 className="mb-20 fw-500">Protect Your Brand, Protect Your Business</h3>
-            <p className="lead-text mb-0">{service.Introduction}</p>
+            <p className="lead-text mb-0">In today's competitive market, your brand is one of your most valuable assets. Registering your trademark in Dubai gives you legal ownership of your brand name, logo, slogan, or design, preventing unauthorized use. Bizdoc offers professional trademark registration and <a href="/" className='main-color'>company formation services in Dubai</a>, ensuring your brand and business are fully protected.</p>
           </div>
         </div>
         
@@ -69,7 +69,7 @@ function TrademarkRegistrationServices() {
             {/* Why Register */}
             {service.WhyRegister && (
               <div className="service-section mb-50">
-                <h3 className="mb-30 fw-500">Why Register a Trademark in <span className='main-color'>UAE</span>?</h3>
+                <h3 className="mb-30 fw-500">Why Register a Trademark in <span className='main-color'>Dubai</span>?</h3>
                 <div className="row">
                   <div className="col-12">
                     <ul className="service-list">
@@ -155,85 +155,85 @@ function TrademarkRegistrationServices() {
           </div>
           
           {/* Sidebar with key information */}
-        <div className="col-lg-4">
+      <div className="col-lg-4">
             <div className="sidebar sticky-top ps-lg-4">
               <div className="sidebar-widget  p-4 rounded mb-4">
                 <h5 className="mb-3 fw-500">Our Services</h5>
                 <ul className="list-unstyled">
                   <li className="mb-2">
-                    <a href="/business-setup-services" className=" d-flex align-items-center">
+                    <a href="/business-setup-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Business Setup
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/pro-services" className=" d-flex align-items-center">
+                    <a href="/pro-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       PRO Services
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/document-attestation-services" className=" d-flex align-items-center">
+                    <a href="/document-attestation-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Document Attestation
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/legal-services" className=" d-flex align-items-center">
+                    <a href="/legal-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Legal Services
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/legal-translation-services" className=" d-flex align-items-center">
+                    <a href="/legal-translation-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Legal Translation
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/bank-account-opening-services" className=" d-flex align-items-center">
+                    <a href="/bank-account-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Banking Assistance
                     </a>
                   </li>
-                  
-                
+
+
                   <li className="mb-2">
-                    <a href="/family-visa-services" className=" d-flex align-items-center">
+                    <a href="/family-visa-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                     Family Visa
+                      Family Visa
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/golden-visa-services" className=" d-flex align-items-center">
+                    <a href="/golden-visa-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Golden Visa
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/tax-compliance-services" className=" d-flex align-items-center">
+                    <a href="/tax&compliance-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                     Tax & Compliance
+                      Tax & Compliance
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/trademark-registration-services" className=" d-flex align-items-center">
+                    <a href="/trademark-registration-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Trademark Protection
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/end-to-end-business-support" className=" d-flex align-items-center">
+                    <a href="/business-support-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                       Business Support
+                      Business Support
                     </a>
                   </li>
                 </ul>
               </div>
-              
+
               <div className="sidebar-widget bg-main-color text-white p-4 rounded">
                 <h5 className="mb-3">Comprehensive Business Support</h5>
-                <p className="mb-3">From startup to success, we handle all your business needs in the UAE.</p>
+                <p className="mb-3">From startup to success, we handle all your business needs in the Dubai.</p>
                 <a href="/contact" className="btn text-white main-colorbg w-100">Get Started Today</a>
               </div>
             </div>

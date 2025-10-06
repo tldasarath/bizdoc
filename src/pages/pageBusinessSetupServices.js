@@ -71,14 +71,14 @@ export default function PageBusinessSetupServices() {
   return (
     <>
       <Helmet>
-        <title>Business Setup Services in UAE | Mainland, Free Zone & Offshore</title>
+        <title>Business Setup Services in Dubai | Mainland, Free Zone & Offshore</title>
         <meta
           name="description"
-          content="Start your company with Bizdoc’s business setup services in UAE. We handle mainland, free zone, offshore setup, licensing, and compliance."
+          content="Start your company with Bizdoc’s business setup services in Dubai. We handle mainland, free zone, offshore setup, licensing, and compliance."
         />
         <meta
           name="keywords"
-          content="business setup services in UAE"
+          content="business setup services in dubai"
         />           <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

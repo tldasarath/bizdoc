@@ -7,23 +7,23 @@ function DocumentAttestationServices() {
   // Service data based on the provided content
   const service = {
     id: id || 3,
-    Introduction: "When living, working, or doing business in the UAE, official documents must often be verified by authorities. This process, called attestation, proves that your documents are authentic and legally valid. Bizdoc provides professional document attestation services in UAE for personal, educational, and commercial papers, making the process simple and stress-free.",
+    Introduction: "When living, working, or doing business in Dubai, official documents must often be verified by authorities. This process, called attestation, proves that your documents are authentic and legally valid. Bizdoc provides professional document attestation and legal translation services in Dubai for personal, educational, and commercial papers. Furthermore, we offer comprehensive legal services in Dubai to ensure your entire process is seamless, compliant, and stress-free.",
     OurDocumentAttestationServicesInclude: {
       "Educational Certificates": "Attestation of degrees, diplomas, transcripts, and training certificates for job applications, higher education, or professional licensing.",
       "Personal Documents": "Verification of birth certificates, marriage certificates, and passports required for visas, family sponsorship, or other personal matters.",
-      "Commercial Documents": "Attestation of trade licenses, contracts, invoices, and company papers for business transactions and compliance in the UAE.",
+      "Commercial Documents": "Attestation of trade licenses, contracts, invoices, and company papers for business transactions and compliance in the Dubai.",
       "Ministry and Embassy Approvals": "We coordinate with the Ministry of Foreign Affairs (MOFA), embassies, and other authorities to complete the process quickly."
     },
     BenefitsOfChoosingBizdoc: [
       "Fast Processing: We handle submissions and approvals without delays.",
       "End-to-End Support: From initial verification to final stamping, everything is managed by our team.",
-      "Legal Compliance: Ensure your documents meet UAE government requirements.",
+      "Legal Compliance: Ensure your documents meet Dubai government requirements.",
       "Trusted Service: Our experience guarantees accuracy and reliability."
     ],
-    WhyChooseBizdoc: "At Bizdoc, we know how important it is for your documents to be ready on time. Whether you are applying for a job, sponsoring family, or finalizing a business deal, our document attestation services in Dubai and across the UAE give you complete peace of mind."
+    WhyChooseBizdoc: "At Bizdoc, we know how important it is for your documents to be ready on time. Whether you are applying for a job, sponsoring family, or finalizing a business deal, our document attestation services in Dubai and across the Dubai give you complete peace of mind."
   };
 
-  const serviceKey = "DocumentAttestationServicesInUAE";
+  const serviceKey = "DocumentAttestationServicesInDubai";
 
   return (
     <section className="intro section-padding">
@@ -32,7 +32,7 @@ function DocumentAttestationServices() {
         <div className="row mb-60">
           <div className="col-12">
             <div className="img-full fit-img rounded-lg overflow-hidden">
-              <img src="/assets/images/services/document-attestation.png" alt={serviceKey} className="w-75" />
+              <img src="/assets/images/services/document-attestation-services-in-dubai.png" alt={serviceKey} className="w-75" />
             </div>
           </div>
         </div>
@@ -41,8 +41,8 @@ function DocumentAttestationServices() {
         <div className="row mb-50">
           <div className="col-12">
             <h6 className="sub-title main-color mb-15">Service Overview</h6>
-            <h1 className="mb-30 fw-600">Document Attestation Services in <span className='main-color'>UAE</span></h1>
-            <p className="lead-text mb-0">{service.Introduction}</p>
+            <h1 className="mb-30 fw-600">Document Attestation Services in <span className='main-color'>Dubai</span></h1>
+            <p className="lead-text mb-0">When living, working, or doing business in Dubai, official documents must often be verified by authorities. This process, called attestation, proves that your documents are authentic and legally valid. Bizdoc provides professional document attestation and <a className='main-color' href="/legal-translation-services-in-dubai">legal translation services in Dubai</a> for personal, educational, and commercial papers. Furthermore, we offer comprehensive <a href="/legal-services-in-dubai" className='main-color'>legal services in Dubai</a> to ensure your entire process is seamless, compliant, and stress-free.</p>
           </div>
         </div>
         
@@ -89,8 +89,8 @@ function DocumentAttestationServices() {
             {/* Why Choose Bizdoc */}
             {service.WhyChooseBizdoc && (
               <div className="service-section mb-50">
-                <h3 className="mb-30 fw-500">Why Bizdoc for Document Attestation in <span className='main-color'>UAE</span></h3>
-                <p className="lead-text mb-0">{service.WhyChooseBizdoc}</p>
+                <h3 className="mb-30 fw-500">Why Bizdoc for Document Attestation in <span className='main-color'>Dubai</span></h3>
+                <p className="lead-text mb-0">At <a href='/' className="main-color">Bizdoc</a>, we know how important it is for your documents to be ready on time. Whether you are applying for a job, sponsoring family, or finalizing a business deal, our document attestation services in Dubai and across the Dubai give you complete peace of mind.</p>
               </div>
             )}
             
@@ -104,85 +104,85 @@ function DocumentAttestationServices() {
           </div>
           
           {/* Sidebar with key information */}
-          <div className="col-lg-4">
+           <div className="col-lg-4">
             <div className="sidebar sticky-top ps-lg-4">
               <div className="sidebar-widget  p-4 rounded mb-4">
                 <h5 className="mb-3 fw-500">Our Services</h5>
                 <ul className="list-unstyled">
                   <li className="mb-2">
-                    <a href="/business-setup-services" className=" d-flex align-items-center">
+                    <a href="/business-setup-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Business Setup
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/pro-services" className=" d-flex align-items-center">
+                    <a href="/pro-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       PRO Services
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/document-attestation-services" className=" d-flex align-items-center">
+                    <a href="/document-attestation-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Document Attestation
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/legal-services" className=" d-flex align-items-center">
+                    <a href="/legal-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Legal Services
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/legal-translation-services" className=" d-flex align-items-center">
+                    <a href="/legal-translation-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Legal Translation
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/bank-account-opening-services" className=" d-flex align-items-center">
+                    <a href="/bank-account-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Banking Assistance
                     </a>
                   </li>
-                  
-                
+
+
                   <li className="mb-2">
-                    <a href="/family-visa-services" className=" d-flex align-items-center">
+                    <a href="/family-visa-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                     Family Visa
+                      Family Visa
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/golden-visa-services" className=" d-flex align-items-center">
+                    <a href="/golden-visa-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Golden Visa
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/tax-compliance-services" className=" d-flex align-items-center">
+                    <a href="/tax&compliance-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                     Tax & Compliance
+                      Tax & Compliance
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/trademark-registration-services" className=" d-flex align-items-center">
+                    <a href="/trademark-registration-services-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
                       Trademark Protection
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="/end-to-end-business-support" className=" d-flex align-items-center">
+                    <a href="/business-support-in-dubai" className=" d-flex align-items-center">
                       <i className="fas fa-arrow-right main-color me-2"></i>
-                       Business Support
+                      Business Support
                     </a>
                   </li>
                 </ul>
               </div>
-              
+
               <div className="sidebar-widget bg-main-color text-white p-4 rounded">
                 <h5 className="mb-3">Comprehensive Business Support</h5>
-                <p className="mb-3">From startup to success, we handle all your business needs in the UAE.</p>
+                <p className="mb-3">From startup to success, we handle all your business needs in the Dubai.</p>
                 <a href="/contact" className="btn text-white main-colorbg w-100">Get Started Today</a>
               </div>
             </div>

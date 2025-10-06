@@ -44,7 +44,7 @@ function Blog() {
         </div>
 
         <div className="cont pt-30">
-          <h5>{values.title}</h5>
+          <h5><a className='custom-link' href={values.link}>{values.title}</a></h5>
           <a
             href={values.link}
             className="butn-crev d-flex align-items-center mt-30"

@@ -9420,3 +9420,6 @@ p {
   }
 }
 
+.custom-link:hover {
+  text-decoration: underline;
+}

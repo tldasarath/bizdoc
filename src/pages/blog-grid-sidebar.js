@@ -67,14 +67,14 @@ export default function BlogGridSidebar() {
   return (
     <>
       <Helmet>
-        <title>Business Setup Services in Dubai | Company Formation Experts</title>
+        <title>Business Setup Dubai | Bizdoc Businessman Services</title>
         <meta
           name="description"
-          content="Get professional business setup services in Dubai with company formation, PRO support, visas, and compliance solutions to start and grow your UAE business."
+          content="Are you planning business setup Dubai with company formation, PRO support, visas, and compliance solutions? Contact Bizdoc now!"
         />
         <meta
           name="keywords"
-          content="business setup services in dubai, company formation dubai, dubai pro services, business setup uae, dubai company registration, dubai visa services"
+          content="business setup dubai"
         />
            <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
