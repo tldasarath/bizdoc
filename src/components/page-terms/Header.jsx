@@ -17,7 +17,7 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <div className="text-center">
-              <h1 className="text-u ls1 fz-80">
+              <h3 className="text-u ls1 fz-80">
                 {/* <ShinyText 
   text="Terms & Conditions" 
   disabled={false} 
@@ -25,7 +25,7 @@ function Header() {
   className='custom-class' 
 /> */}
                 Terms & <span className="fw-200 main-color">Conditions</span>
-              </h1>
+              </h3>
             </div>
           </div>
         </div>

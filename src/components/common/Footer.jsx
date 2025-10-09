@@ -134,6 +134,19 @@ function Footer() {
         </div>
 
         {/* Footer Bottom */}
+        <div className="pt-50 pb-50 mt-80 bord-thin-top  relative z-20">
+          <div className="">
+           <h6 className="sub-title mb-30">Business Setup</h6>
+              <ul className="rest fz-14 opacity-7 mb-30">
+                <li className="mb-15">
+                  <a href="/company-formation-in-dubai">Company Formation Dubai</a>
+                </li>
+                <li>
+                  <a href="/free-zone-company-setup">Free Zone Company Setup in Dubai</a>
+                </li>
+              </ul>
+          </div>
+        </div>
         <div className="pt-30 pb-30 mt-80 bord-thin-top relative z-20">
           <div className="text-center">
             <p className="fz-14">

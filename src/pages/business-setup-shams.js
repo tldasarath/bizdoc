@@ -4,25 +4,22 @@ import Cursor from '../components/common/cusor';
 import LoadingScreen from '../components/common/loader';
 import Footer from '../components/common/Footer';
 import Navbar from '../components/common/Navbar';
-import Marq2 from '../components/common/Marq2';
 import { Helmet } from 'react-helmet';
-import Clients from '../components/common/Clients';
-import Services from '../components/home-digital-agency/Services';
-import Intro2 from '../components/home-digital-agency/Intro2';
-import Testimonials from '../components/home-digital-agency/Testimonials';
-import Blog from '../components/blog-grid-3column/Blogs';
-import Header from '../components/page-services/Header';
-import Numbers from '../components/page-services/Numbers';
+import Header from '../components/page-services-details/Header';
+import Blog from '../components/blog-details/Blog';
 import WOW from 'wowjs';
+
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-// import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
+// // import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
 
 import { useGSAP } from '@gsap/react';
 import { useEffect, useRef } from 'react';
-import BlogGrid3Columns from './blog-grid-3columns';
+import BusinessSetupBlog from '../components/blog-details/business-setup';
+import ShamsFreeZone from '../components/blog-details/shams-freeZone';
 gsap.registerPlugin(useGSAP, ScrollTrigger);
-export default function PageServices() {
+
+export default function   BusinessSetupShams() {
   const main = useRef();
   const smoother = useRef();
 
@@ -74,17 +71,18 @@ export default function PageServices() {
   return (
     <>
       <Helmet>
-        <title> Business Support & Visa Services in Dubai | Bizdoc
-        </title>
+        <title> Business Setup Company in SHAMS Free Zone | Bizdoc Dubai
+
+</title>
         <meta
           name="description"
-          content="Explore Bizdoc’s end-to-end Business Support & Visa Services in Dubai . From company formation, PRO services, and visa processing to legal assistance, bank account opening, tax compliance, and trademark registration."
+          content=" Set up your business in Sharjah Media City (SHAMS) Free Zone with Bizdoc. Enjoy tax-free benefits, affordable trade licenses, flexible visas, and fast online registration for startups and SMEs in the UAE."
         />
         <meta
           name="keywords"
-          content="business support & visa services in dubai, company formation dubai"
+          content=" SHAMS Free Zone business setup, business setup company in Dubai, Sharjah Media City Free Zone, UAE free zone company formation, trade license SHAMS Free Zone, Dubai business setup services, Bizdoc business setup."
         />
-        <link rel="icon" href="/assets/images/home/favicon.png" />
+           <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
@@ -118,16 +116,9 @@ export default function PageServices() {
         <Navbar />
         <div id="smooth-wrapper" ref={main}>
           <div id="smooth-content">
-            <main className="main-bg o-hidden">
-              <Header />
-              {/* <Services /> */}
-              {/* <Intro2 /> */}
-              {/* <Numbers /> */}
-              {/* <Testimonials /> */}
-              {/* <Clients /> */}
-              {/* <Blog /> */}
-              <Blog />
-              {/* <Marq2 /> */}
+            <main className="main-bg">
+              <Header title={"Business Setup in Shams"} />
+              <ShamsFreeZone />
             </main>
             <Footer />
           </div>

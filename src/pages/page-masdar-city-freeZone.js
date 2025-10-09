@@ -4,25 +4,20 @@ import Cursor from '../components/common/cusor';
 import LoadingScreen from '../components/common/loader';
 import Footer from '../components/common/Footer';
 import Navbar from '../components/common/Navbar';
-import Marq2 from '../components/common/Marq2';
 import { Helmet } from 'react-helmet';
-import Clients from '../components/common/Clients';
-import Services from '../components/home-digital-agency/Services';
-import Intro2 from '../components/home-digital-agency/Intro2';
-import Testimonials from '../components/home-digital-agency/Testimonials';
-import Blog from '../components/blog-grid-3column/Blogs';
-import Header from '../components/page-services/Header';
-import Numbers from '../components/page-services/Numbers';
+import Header from '../components/page-services-details/Header';
 import WOW from 'wowjs';
+
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-// import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
+// // import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
 
 import { useGSAP } from '@gsap/react';
 import { useEffect, useRef } from 'react';
-import BlogGrid3Columns from './blog-grid-3columns';
+import MasdarCityFreezone from '../components/blog-details/masdar-city-freeZone';
 gsap.registerPlugin(useGSAP, ScrollTrigger);
-export default function PageServices() {
+
+export default function   MasdarCityFreeZone() {
   const main = useRef();
   const smoother = useRef();
 
@@ -74,17 +69,19 @@ export default function PageServices() {
   return (
     <>
       <Helmet>
-        <title> Business Support & Visa Services in Dubai | Bizdoc
-        </title>
+        <title>  Masdar City Free Zone Business Setup | Bizdoc Abu Dhabi
+
+</title>
         <meta
           name="description"
-          content="Explore Bizdoc’s end-to-end Business Support & Visa Services in Dubai . From company formation, PRO services, and visa processing to legal assistance, bank account opening, tax compliance, and trademark registration."
+          content="  Set up your business in Masdar City Free Zone, Abu Dhabi with Bizdoc. Enjoy 100% foreign ownership, fast licensing, visa support, and sustainable infrastructure for startups, SMEs, and multinational companies.
+"
         />
         <meta
           name="keywords"
-          content="business support & visa services in dubai, company formation dubai"
+          content=" Masdar City Free Zone business setup, business setup in Abu Dhabi, UAE free zone company formation, Masdar City company registration, Abu Dhabi business setup services, Bizdoc business setup, renewable energy business UAE"
         />
-        <link rel="icon" href="/assets/images/home/favicon.png" />
+           <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
@@ -118,16 +115,9 @@ export default function PageServices() {
         <Navbar />
         <div id="smooth-wrapper" ref={main}>
           <div id="smooth-content">
-            <main className="main-bg o-hidden">
-              <Header />
-              {/* <Services /> */}
-              {/* <Intro2 /> */}
-              {/* <Numbers /> */}
-              {/* <Testimonials /> */}
-              {/* <Clients /> */}
-              {/* <Blog /> */}
-              <Blog />
-              {/* <Marq2 /> */}
+            <main className="main-bg">
+              <Header title={" Setting Up a Company in Masdar City"} />
+              <MasdarCityFreezone />
             </main>
             <Footer />
           </div>

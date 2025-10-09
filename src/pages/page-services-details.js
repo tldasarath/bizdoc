@@ -18,7 +18,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 import { useEffect, useRef } from 'react';
 gsap.registerPlugin(useGSAP, ScrollTrigger);
-export default function PageServicesDetails() {
+export default function 
+PageServicesDetails() {
   const main = useRef();
   const smoother = useRef();
 

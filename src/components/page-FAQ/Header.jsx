@@ -16,9 +16,9 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <div className="text-center">
-              <h1 className="text-u ls1 fz-80">
+              <h3 className="text-u ls1 fz-80">
                 Freq<span className="fw-200">uency</span>
-              </h1>
+              </h3>
             </div>
           </div>
         </div>

@@ -16,10 +16,10 @@ function Header({title,sub}) {
         <div className="row">
           <div className="col-12">
             <div className="text-center">
-              <h1 className="text-u ls1 fz-70">
+              <h3 className="text-u ls1 fz-70">
                 {title}
                 <span className="fw-200">{sub}</span>
-              </h1>
+              </h3>
             </div>
           </div>
         </div>

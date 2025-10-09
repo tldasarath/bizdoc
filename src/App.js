@@ -43,6 +43,12 @@ import Chatbot from './components/chatbot/chatbot.jsx';
 import Privacy from './pages/page-privacy.js';
 import Terms from './pages/page-term.js';
 import { useEffect, useState } from 'react';
+import BusinessSetupDubai from './pages/business-setup-dubai.js';
+import BusinessSetupShams from './pages/business-setup-shams.js';
+import MasdarCityFreeZone from './pages/page-masdar-city-freeZone.js';
+import LegalServicesDubai from './pages/page-legal-services-dubai.js';
+import CompanyformationDubai from './pages/page-company-formation.js';
+import FreezoneCompanySetup from './pages/page-free-zone-company.js';
 // import gsap from 'gsap';
 // import { ScrollTrigger } from 'gsap/ScrollTrigger';
 // // // import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
@@ -85,6 +91,10 @@ function App() {
         <Route path="/golden-visa-dubai-uae" element={<GoldenVisa />} />
         <Route path="/family-visa-services-dubai-uae" element={<FamilyVisa />} />
         <Route path="/business-setup-in-dubai-freezone" element={<Freezone />} />
+        <Route path="/business-setup-company-in-dubai-uae-2025" element={<BusinessSetupDubai />} />
+        <Route path="/business-setup-company-in-the-shams-freezone" element={<BusinessSetupShams/>} />
+        <Route path="/benefits-of-setting-up-a-company-in-masdar-city-freezone" element={<MasdarCityFreeZone/>} />
+        <Route path="/best-legal-services-in-dubai" element={<LegalServicesDubai/>} />
         {/* <Route path="/business-setup" element={<BusinessSetup />} /> */}
         <Route path="/blogs" element={<BlogGridSidebar />} />
        
@@ -144,29 +154,12 @@ function App() {
           path="/business-support-in-dubai"
           element={<PageEndToEndBusinessSupport/>}
           />
+          
         <Route path="/services" element={<PageServices />} />
-         {/* <Route path="/home-creative-agency" element={<HomeCreativeAgency />} /> */}
-        {/* <Route path="/home-digital-agency" element={<HomeDigitalAgency />} /> */}
-                {/* <Route path="/" element={<Home />} /> */}
+       {/* Business-Setup */}
+        <Route path="/company-formation-in-dubai" element={<CompanyformationDubai />} />
+        <Route path="/free-zone-company-setup" element={<FreezoneCompanySetup />} />
 
-         {/* <Route path="/home-modern-studio" element={<HomeModernStudio />} /> */}
-        {/* <Route path="/home-personal" element={<HomePersonal />} /> */}
-          {/* <Route path="/blog-grid-3column" element={<BlogGrid3Columns />} /> */}
-        {/* <Route path="/page-team" element={<PageTeam />} />
-        <Route path="/page-team-details" element={<PageTeamDetails />} />
-        <Route path="/portfolio-creative" element={<PortfolioCreative />} />
-        <Route
-          path="/portfolio-creative-carousel"
-          element={<PortfolioCreativeCarousel />}
-        />
-        <Route path="/portfolio-gallery" element={<PortfolioGallery />} />
-        <Route path="/portfolio-grid" element={<PortfolioGrid />} />
-        <Route path="/portfolio-masonry" element={<PortfolioMasonry />} />
-        <Route path="/project-details" element={<ProjectDetails />} /> */}
-
-        {/*        
-        {/*
-         */}
       </Routes>
       </div>
     </Router>

@@ -11,7 +11,7 @@ function Intro() {
               <h1 className="mb-20">
                 Leading Business Setup Company in <span className='main-color'>Dubai</span> 
               </h1>
-              <p >
+              <p>
                 Bizdoc is a trusted name for business setup services in Dubai, supporting entrepreneurs,
                 investors, and corporations with hassle-free solutions. Our mission is to simplify company
                 formation in Dubai and across the Emirates, so you can focus on growth while we take care
@@ -26,6 +26,35 @@ function Intro() {
               <p>
                 Whether you are a startup, SME, or multinational, we provide the right solutions to launch
                 and expand your business in the Dubai.
+              </p>
+
+              {/* Enhanced Content Sections */}
+              <h4 className="mt-30">Business Setup Services in Dubai</h4>
+              <p>
+                Starting a business in Dubai can be complex, but with Bizdoc, it's seamless. We offer comprehensive 
+                business setup services in Dubai, including company registration, licensing, and PRO services. Our 
+                experts guide you through every step, ensuring your business is compliant with all UAE regulations.
+              </p>
+
+              <h4 className="mt-20">Legal Services in Dubai</h4>
+              <p>
+                Our team also provides expert legal services in Dubai, helping you with document attestation, 
+                contracts, and corporate legal compliance. Whether you need legal translation services in Dubai 
+                or advice on regulatory requirements, Bizdoc is your trusted partner.
+              </p>
+
+              <h4 className="mt-20">Company Formation Dubai</h4>
+              <p>
+                We specialize in company formation in Dubai, assisting clients in both Free Zone and Mainland setups. 
+                From business registration in Dubai to obtaining approvals, visas, and permits, our services cover 
+                every aspect of starting and growing your business.
+              </p>
+
+              <h4 className="mt-20">Business Support in Dubai</h4>
+              <p>
+                Beyond setup, we offer ongoing business support in Dubai, including accounting, tax compliance, 
+                visa services, and corporate consulting. Our goal is to ensure your business runs smoothly, allowing 
+                you to focus on growth and expansion.
               </p>
 
               {/* Mission & Vision */}
@@ -70,6 +99,33 @@ function Intro() {
                 <li><strong><a className='custom-link' href="/trademark-registration-services-in-dubai">Trademark Registration:</a></strong> Protect your brand in the Dubai market.</li>
                 <li><strong><a className='custom-link' href="/business-support-in-dubai">End-to-End Business Support:</a></strong> From setup to growth, complete corporate solutions.</li>
               </ul>
+
+              {/* FAQ Section */}
+              <h4 className="mt-30">Frequently Asked Questions</h4>
+              
+              <div className="faq-item mb-20">
+                <h5 className="faq-question">How to set up a business in Dubai?</h5>
+                <p className="faq-answer">
+                  Bizdoc provides end-to-end services, from company registration to licensing, visas, and legal compliance, 
+                  making business setup in Dubai straightforward and efficient.
+                </p>
+              </div>
+
+              <div className="faq-item mb-20">
+                <h5 className="faq-question">Why choose a business setup company in Dubai?</h5>
+                <p className="faq-answer">
+                  Navigating Dubai's business regulations can be challenging. A trusted setup company like Bizdoc ensures 
+                  compliance, saves time, and provides professional guidance at every step.
+                </p>
+              </div>
+
+              <div className="faq-item mb-30">
+                <h5 className="faq-question">What services does Bizdoc offer in Dubai?</h5>
+                <p className="faq-answer">
+                  We offer company formation, business setup services, legal support, PRO services, visa assistance, 
+                  tax compliance, and ongoing business support.
+                </p>
+              </div>
 
               <a href="/services" className="underline main-color mt-20">
                 <span className="text">

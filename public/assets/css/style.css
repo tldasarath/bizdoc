@@ -9423,3 +9423,119 @@ p {
 .custom-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 1024px) {
+  .clean-footer .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .clean-footer .col-lg-2,
+  .clean-footer .col-lg-3,
+  .clean-footer .col-lg-4 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .clean-footer .logo {
+    text-align: center;
+  }
+}
+/* Black & Golden Theme Styles */
+
+
+
+
+
+
+
+
+
+/* Pagination Styles */
+.pagination-container {
+  border-top: 1px solid #333;
+  padding-top: 30px;
+}
+
+.pagination .page-item .pagination-btn {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #D4AF37;
+  margin: 0 5px;
+  border-radius: 5px;
+  padding: 10px 18px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.pagination .page-item .pagination-btn:hover:not(:disabled) {
+  background-color: #D4AF37;
+  border-color: #D4AF37;
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
+}
+
+.pagination .page-item.active .pagination-btn {
+  background: linear-gradient(45deg, #D4AF37, #F4C542);
+  border-color: #D4AF37;
+  color: #000;
+  font-weight: 600;
+}
+
+.pagination .page-item.disabled .pagination-btn {
+  background-color: #2a2a2a;
+  border-color: #444;
+  color: #666;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.pagination .pagination-ellipsis {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #D4AF37;
+  margin: 0 5px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: 500;
+}
+
+/* Category Badge */
+.category-badge.bg-golden {
+  background: linear-gradient(45deg, #D4AF37, #F4C542) !important;
+  color: #000 !important;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+/* No Results Styling */
+.no-results .golden-text {
+  color: #D4AF37 !important;
+}
+
+.no-results .golden-btn {
+  background: linear-gradient(45deg, #D4AF37, #F4C542);
+  color: #000;
+}
+
+.no-results .golden-btn:hover {
+  background: linear-gradient(45deg, #F4C542, #D4AF37);
+}
+
+/* Widget Titles */
+.title-widget.golden-text {
+  color: #D4AF37 !important;
+  font-weight: 600;
+  position: relative;
+}
+
+.title-widget.golden-text::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background: linear-gradient(45deg, #D4AF37, #F4C542);
+}
