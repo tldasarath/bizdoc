@@ -4,25 +4,24 @@ import Cursor from '../components/common/cusor';
 import LoadingScreen from '../components/common/loader';
 import Footer from '../components/common/Footer';
 import Navbar from '../components/common/Navbar';
-import Marq2 from '../components/common/Marq2';
 import { Helmet } from 'react-helmet';
-import Clients from '../components/common/Clients';
-import Services from '../components/home-digital-agency/Services';
-import Intro2 from '../components/home-digital-agency/Intro2';
-import Testimonials from '../components/home-digital-agency/Testimonials';
-import Blog from '../components/blog-grid-3column/Blogs';
-import Header from '../components/page-services/Header';
-import Numbers from '../components/page-services/Numbers';
+import Header from '../components/page-services-details/Header';
+import Blog from '../components/blog-details/Blog';
 import WOW from 'wowjs';
+
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-// import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
+// // import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
 
 import { useGSAP } from '@gsap/react';
 import { useEffect, useRef } from 'react';
-import BlogGrid3Columns from './blog-grid-3columns';
+
+
+import MainlandCompanyFormationDubai from '../components/business-setup/MainLandCompany';
+import LLCCompanySetupDubai from '../components/business-setup/LLCCompanySetupDubai';
 gsap.registerPlugin(useGSAP, ScrollTrigger);
-export default function PageServices() {
+
+export default function   LLCCompanySetup() {
   const main = useRef();
   const smoother = useRef();
 
@@ -74,17 +73,19 @@ export default function PageServices() {
   return (
     <>
       <Helmet>
-        <title> Businessmen Services Dubai | Professional Business Support & Setup
-        </title>
+        <title>   LLC Company Setup Services in Dubai | Bizdoc Businessman Services
+
+
+</title>
         <meta
           name="description"
-          content="Explore best businessmen services Dubai including company formation, PRO assistance, legal documentation, and visa processing. Simplify your business journey with expert services and support with government coordination."
+          content="Bizdoc Businessman Services offers complete LLC Company Setup Services in Dubai. Trusted business setup company in dubai with expert legal services and tax & compliance services in dubai."
         />
         <meta
           name="keywords"
-          content="business support & visa services in dubai, company formation dubaibusinessmen services dubai"
+          content=" llc company setup services in dubai, mainland company formation dubai, business setup company in dubai, legal services in dubai, tax & compliance services in dubai"
         />
-        <link rel="icon" href="/assets/images/home/favicon.png" />
+           <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
@@ -118,16 +119,9 @@ export default function PageServices() {
         <Navbar />
         <div id="smooth-wrapper" ref={main}>
           <div id="smooth-content">
-            <main className="main-bg o-hidden">
-              <Header />
-              {/* <Services /> */}
-              {/* <Intro2 /> */}
-              {/* <Numbers /> */}
-              {/* <Testimonials /> */}
-              {/* <Clients /> */}
-              {/* <Blog /> */}
-              <Blog />
-              {/* <Marq2 /> */}
+            <main className="main-bg">
+              <Header title={" llc company setup "} />
+              <LLCCompanySetupDubai/>
             </main>
             <Footer />
           </div>
@@ -136,3 +130,4 @@ export default function PageServices() {
     </>
   );
 }
+         

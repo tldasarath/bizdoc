@@ -8,7 +8,7 @@ function CompanyFormationDubai() {
           <div className="col-lg-12">
             <div className="cont">
               <h1 className="mb-20">
-                Company Formation Dubai – <span className="fw-200">Bizdoc</span>
+                Company Formation Dubai 
               </h1>
               <p>
                 Looking to start your business in the UAE? Bizdoc Businessman Services is your trusted partner for company formation services in Dubai, helping entrepreneurs, investors, and corporations set up their businesses efficiently and legally. With years of experience in the UAE market, we simplify the process so you can focus on growing your business.

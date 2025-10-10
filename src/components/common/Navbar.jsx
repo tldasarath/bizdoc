@@ -43,7 +43,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bord blur">
       <div className="container o-hidden">
         <a className="logo icon-img-240" href="/">
-          <img src="/assets/images/logos/logo.png" alt="logo" />
+          <img src="/assets/images/logos/bizdoc-businessman-services-dubai.png" alt="business-setup-company-in-dubai" />
         </a>
 
         <button

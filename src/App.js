@@ -49,6 +49,15 @@ import MasdarCityFreeZone from './pages/page-masdar-city-freeZone.js';
 import LegalServicesDubai from './pages/page-legal-services-dubai.js';
 import CompanyformationDubai from './pages/page-company-formation.js';
 import FreezoneCompanySetup from './pages/page-free-zone-company.js';
+import OffshoreCompanyFormation from './pages/page-offshore-company.js';
+import MainlandCompanyFormation from './pages/page-mainland-company.js';
+import LLCCompanySetup from './pages/page-llc-company.js';
+import BranchOfficeSetup from './pages/page-branch-office.js';
+import DMCCCompanySetup from './pages/page-dmcc-company.js';
+import DICCompanyFormation from './pages/page-dic-company-formation.js';
+import DSOBusinessSetup from './pages/page-dso-business.js';
+import CorporatePROServices from './pages/page-coporate-pro-service.js';
+import LicenseRenewalServices from './pages/page-license-renewal.js';
 // import gsap from 'gsap';
 // import { ScrollTrigger } from 'gsap/ScrollTrigger';
 // // // import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
@@ -158,7 +167,16 @@ function App() {
         <Route path="/services" element={<PageServices />} />
        {/* Business-Setup */}
         <Route path="/company-formation-in-dubai" element={<CompanyformationDubai />} />
-        <Route path="/free-zone-company-setup" element={<FreezoneCompanySetup />} />
+        <Route path="/free-zone-company-setup-in-dubai" element={<FreezoneCompanySetup />} />
+        <Route path="/offshore-company-formation-services-in-dubai" element={<OffshoreCompanyFormation />} />
+        <Route path="/mainland-company-formation-services-in-dubai" element={<MainlandCompanyFormation />} />
+        <Route path="/llc-company-setup-services-in-dubai" element={<LLCCompanySetup />} />
+        <Route path="/branch-office-setup-services-in-dubai" element={<BranchOfficeSetup />} />
+        <Route path="/dmccc-company-setup-services-in-dubai" element={<DMCCCompanySetup />} />
+        <Route path="/dic-company-formation-services-in-dubai" element={<DICCompanyFormation />} />
+        <Route path="/dso-business-setup-services-in-dubai" element={<DSOBusinessSetup/>} />
+        <Route path="/corporate-pro-services-in-dubai" element={<CorporatePROServices/>} />
+        <Route path="/license-renewal-services-in-dubai" element={<LicenseRenewalServices/>} />
 
       </Routes>
       </div>

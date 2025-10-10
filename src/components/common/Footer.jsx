@@ -10,7 +10,7 @@ function Footer() {
           {/* Logo */}
           <div className="col-lg-2">
             <div className="logo icon-img-240 md-mb80">
-              <img src="/assets/images/logos/logo.png" alt="Bizdoc Logo" />
+              <img src="/assets/images/logos/bizdoc-businessman-services-dubai.png" alt=" business-setup-company-in-dubai" />
             </div>
           </div>
 
@@ -31,7 +31,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              +971 4 570 7920 
+                +971 4 570 7920
 
               </a>
               <br />
@@ -136,15 +136,56 @@ function Footer() {
         {/* Footer Bottom */}
         <div className="pt-50 pb-50 mt-80 bord-thin-top  relative z-20">
           <div className="">
-           <h6 className="sub-title mb-30">Business Setup</h6>
-              <ul className="rest fz-14 opacity-7 mb-30">
-                <li className="mb-15">
-                  <a href="/company-formation-in-dubai">Company Formation Dubai</a>
-                </li>
-                <li>
-                  <a href="/free-zone-company-setup">Free Zone Company Setup in Dubai</a>
-                </li>
-              </ul>
+            <h6 className="sub-title mb-30">Business Setup</h6>
+            <ul className="rest fz-14 opacity-7 mb-30">
+              <li className="mb-5">
+                <a href="/company-formation-in-dubai">Company Formation Dubai</a>
+              </li>
+              <li className="mb-5">
+                <a href="/free-zone-company-setup-in-dubai">Free Zone Company Setup in Dubai</a>
+              </li>
+              <li className="mb-5">
+                <a href="/offshore-company-formation-services-in-dubai">Offshore Company Formation Services in Dubai</a>
+              </li>
+              <li className="mb-5">
+                <a href="/mainland-company-formation-services-in-dubai">Mainland Company Formation Services in Dubai
+                </a>
+              </li>
+              <li className="mb-5">
+                <a href="/llc-company-setup-services-in-dubai">LLC Company Setup Services in Dubai
+                </a>
+              </li>
+              <li className="mb-5">
+                <a href="/branch-office-setup-services-in-dubai">Branch Office Setup Services in Dubai
+                </a>
+              </li>
+              <li className="mb-5">
+                <a href="/dmccc-company-setup-services-in-dubai">DMCC Company Setup Services in Dubai
+                </a>
+              </li>
+              <li className="mb-5">
+                <a href="/dic-company-formation-services-in-dubai">DIC Company Formation Services in Dubai
+
+                </a>
+              </li>
+              <li className="mb-5">
+                <a href="/dso-business-setup-services-in-dubai">DSO Business Setup Services in Dubai
+
+                </a>
+              </li>
+              <li className="mb-5">
+                <a href="/corporate-pro-services-in-dubai">Corporate PRO Services in Dubai
+
+
+                </a>
+              </li>
+              <li className="mb-5">
+                <a href="/license-renewal-services-in-dubai">License Renewal Services in Dubai
+
+
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
         <div className="pt-30 pb-30 mt-80 bord-thin-top relative z-20">

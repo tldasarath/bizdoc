@@ -28,6 +28,22 @@ import ExtendedServicesSlider from '../components/ExtendedService/ExtendedServic
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 export default function HomeMain() {
+   const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Bizdoc Businessman Services",
+    "image": "https://bizdoc.ae/assets/images/logos/bizdoc-businessman-services-dubai.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Union Coop, Basement B 02, Al Twar 1, Near Dafza Metro",
+      "addressLocality": "Dubai",
+      "addressRegion": "Dubai",
+      "postalCode": "00000",
+      "addressCountry": "AE"
+    },
+    "telephone": "+971 4 570 7920",
+    "url": "https://bizdoc.ae"
+  };
   const main = useRef();
   const smoother = useRef();
 
@@ -102,6 +118,9 @@ export default function HomeMain() {
           type="text/css"
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap"
         />
+        <script type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
         <script src="/assets/js/ScrollTrigger.min.js" defer />
         <script src="/assets/js/ScrollSmoother.min.js" defer />
         <script defer src="/assets/js/gsap.min.js"></script>

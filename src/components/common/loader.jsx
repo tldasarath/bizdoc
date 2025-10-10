@@ -52,7 +52,7 @@ function LoadingScreen() {
           '-=1.5'
         );
       }
-    }, 100);
+    },50);
   }, []);
 
   return (

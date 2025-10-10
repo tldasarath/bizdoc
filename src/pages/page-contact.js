@@ -68,14 +68,15 @@ export default function PageContact() {
   return (
     <>
       <Helmet>
-        <title>Contact | Company Formation Services in Dubai</title>
+        <title>Business Setup Consultation in Dubai | Contact Bizdoc Busnessman Services
+</title>
         <meta
           name="description"
-          content="Contact Bizdoc for expert business setup consultation in Dubai, company formation services in dubai,PRO support, bank account opening etc"
+          content="Contact Bizdoc for expert business setup consultation in Dubai, company formation services in dubai,PRO support, bank account opening etc.Call us :+97145707920"
         />
         <meta
           name="keywords"
-          content="company formation services in dubai,business setup consultation in dubai,company formation support Dubai,UAE"
+          content="business setup consultation in dubai,company formation services in dubai"
         />
            <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />

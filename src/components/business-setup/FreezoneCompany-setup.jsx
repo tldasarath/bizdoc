@@ -8,7 +8,7 @@ function FreeZoneCompanysetup() {
           <div className="col-lg-12">
             <div className="cont">
               <h1 className="mb-20">
-                Free Zone Company Setup in Dubai – <span className="fw-200">Bizdoc</span>
+                Free Zone Company Setup in Dubai 
               </h1>
               <p>
                 Starting a business in Dubai's Free Zones is an excellent choice for entrepreneurs seeking 100% foreign ownership, tax benefits, and simplified regulatory procedures. Bizdoc Businessman Services, a <a href="/about-us" className='main-color'>leading business setup company in Dubai</a>, provides comprehensive solutions for your free zone company setup, ensuring your business is fully compliant and ready to operate.
@@ -52,7 +52,7 @@ function FreeZoneCompanysetup() {
               </p>
               <ul className="mb-30 about-us-li">
                 <li><a className='main-color' href='/legal-services-in-dubai'>Legal Services in Dubai</a> – Drafting contracts, document attestation, and regulatory compliance.</li>
-                <li><a className='main-color' href='/tax&compliance-services-in-dubai'>Tax & Compliance Services in Dubai</a> – VAT registration, corporate tax planning, and periodic compliance reports.</li>
+                <li>Tax & Compliance Services in Dubai – VAT registration, corporate tax planning, and periodic compliance reports.</li>
                 <li><a className='main-color' href='/business-support-in-dubai'>Business Support in Dubai</a> – HR management, bookkeeping, PRO services, and operational assistance.</li>
               </ul>
               <p>
