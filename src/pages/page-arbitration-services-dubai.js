@@ -1,4 +1,4 @@
-import Lines from '../components/common/Lines';
+    import Lines from '../components/common/Lines';
 import ProgressScroll from '../components/common/ProgressScroll';
 import Cursor from '../components/common/cusor';
 import LoadingScreen from '../components/common/loader';
@@ -17,10 +17,19 @@ import { useGSAP } from '@gsap/react';
 import { useEffect, useRef } from 'react';
 
 
-import MainlandCompanyFormationDubai from '../components/business-setup/MainLandCompany';
+import BranchOfficeSetupDubai from '../components/business-setup/BranchOfficeSetupDubai';
+import DMCCCompanySetupDubai from '../components/business-setup/DMCCCompanySetupDubai';
+import DICCompanyFormationDubai from '../components/business-setup/DICCompanyFormationDubai';
+import DSOBusinessSetupDubai from '../components/business-setup/DSOBusinessSetupDubai';
+import CorporatePROServicesDubai from '../components/business-setup/CorporatePROServicesDubai';
+import LicenseRenewalServicesDubai from '../components/business-setup/LicenseRenewalServicesDubai';
+import LegalConsultantsDubai from '../components/business-setup/LegalConsultantsDubai';
+import DebtrecoveryDubai from '../components/business-setup/Debt-Recovery';
+import LitigationservicesDubai from '../components/business-setup/LitigationservicesDubai';
+import ArbitrationservicesDubai from '../components/business-setup/ArbitrationServicesDubai';
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
-export default function   MainlandCompanyFormation() {
+export default function   ArbitrationServicesDubai() {
   const main = useRef();
   const smoother = useRef();
 
@@ -72,16 +81,18 @@ export default function   MainlandCompanyFormation() {
   return (
     <>
       <Helmet>
-        <title>   Mainland Company Formation Services in Dubai | Bizdoc Businessman Services
+        <title>Best Arbitration Law Firm Dubai | Expert Arbitration Lawyers – Bizdoc
+
 
 </title>
         <meta
           name="description"
-          content="Bizdoc Businessman Services provides expert Mainland Company Formation Services in Dubai. Leading business setup company in Dubai offering legal services and tax & compliance services in Dubai."
+          content="  Bizdoc provides expert arbitration services in Dubai. Resolve disputes efficiently with top arbitration lawyers, commercial & construction arbitration experts"
         />
         <meta
           name="keywords"
-          content="Mainland Company Formation Services in Dubai, LLC company setup Dubai, business setup company in Dubai, legal services in Dubai, tax & compliance services in Dubai"
+          content="arbitration law firm Dubai, arbitration lawyers Dubai, dispute resolution Dubai, commercial arbitration UAE, construction arbitration Dubai, Bizdoc legal advisors Dubai, 
+"
         />
            <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
@@ -118,8 +129,8 @@ export default function   MainlandCompanyFormation() {
         <div id="smooth-wrapper" ref={main}>
           <div id="smooth-content">
             <main className="main-bg">
-              <Header title={" Mainland Company Formation "} />
-              <MainlandCompanyFormationDubai/>
+              <Header title={"Arbitration Law Firm in Dubai"} />
+              <ArbitrationservicesDubai/>
             </main>
             <Footer />
           </div>

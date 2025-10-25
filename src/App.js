@@ -58,6 +58,12 @@ import DICCompanyFormation from './pages/page-dic-company-formation.js';
 import DSOBusinessSetup from './pages/page-dso-business.js';
 import CorporatePROServices from './pages/page-coporate-pro-service.js';
 import LicenseRenewalServices from './pages/page-license-renewal.js';
+import LegalconsultantsDubai from './pages/page-LegalConsultants-dubai.js';
+import DebtRecoveryDubai from './pages/page-dept-recovery.js';
+import LitigationServicesDubai from './pages/page-litigationServices.js';
+import ArbitrationServicesDubai from './pages/page-arbitration-services-dubai.js';
+import ExpertLegalAdviceDubai from './pages/page-expert-legal-advice.js';
+import ContractLawyersDubai from './pages/page-contract-lawyer.js';
 // import gsap from 'gsap';
 // import { ScrollTrigger } from 'gsap/ScrollTrigger';
 // // // import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
@@ -177,6 +183,12 @@ function App() {
         <Route path="/dso-business-setup-services-in-dubai" element={<DSOBusinessSetup/>} />
         <Route path="/corporate-pro-services-in-dubai" element={<CorporatePROServices/>} />
         <Route path="/license-renewal-services-in-dubai" element={<LicenseRenewalServices/>} />
+        <Route path="/dubai-advocates-&-legal-consultants-in-dubai" element={<LegalconsultantsDubai/>} />
+        <Route path="/debt-recovery-dubai" element={<DebtRecoveryDubai/>} />
+        <Route path="/best-litigation-services-in-dubai" element={<LitigationServicesDubai/>} />
+        <Route path="/best-arbitration-law-firm-in-dubai" element={<ArbitrationServicesDubai/>} />
+        <Route path="/legal-advice-services-in-dubai" element={<ExpertLegalAdviceDubai/>} />
+        <Route path="/contract-lawyers-in-dubai" element={<ContractLawyersDubai/>} />
 
       </Routes>
       </div>

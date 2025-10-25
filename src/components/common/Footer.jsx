@@ -185,6 +185,36 @@ function Footer() {
 
                 </a>
               </li>
+              <li className="mb-5">
+                <a href="/dubai-advocates-&-legal-consultants-in-dubai">Dubai Advocates & Legal Consultants in Dubai
+
+
+                </a>
+              </li>
+              <li className="mb-5">
+                <a href="/debt-recovery-dubai">Debt Recovery
+                </a>
+              </li>
+              <li className="mb-5">
+                <a href="/best-litigation-services-in-dubai">Litigation Law Firm in Dubai
+
+                </a>
+              </li>
+              <li className="mb-5">
+                <a href="/best-arbitration-law-firm-in-dubai">Arbitration
+
+                </a>
+              </li>
+              <li className="mb-5">
+                <a href="/legal-advice-services-in-dubai">Expert Legal Advice Services in Dubai
+
+                </a>
+              </li>
+              <li className="mb-5">
+                <a href="/contract-lawyers-in-dubai">Contract Lawyers in Dubai
+
+                </a>
+              </li>
             </ul>
           </div>
         </div>

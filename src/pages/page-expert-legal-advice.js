@@ -1,4 +1,4 @@
-import Lines from '../components/common/Lines';
+    import Lines from '../components/common/Lines';
 import ProgressScroll from '../components/common/ProgressScroll';
 import Cursor from '../components/common/cusor';
 import LoadingScreen from '../components/common/loader';
@@ -15,12 +15,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import { useGSAP } from '@gsap/react';
 import { useEffect, useRef } from 'react';
-
-
-import MainlandCompanyFormationDubai from '../components/business-setup/MainLandCompany';
+import ExpertLegaladviceDubai from '../components/business-setup/ExpertLegalAdviceDubai';
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
-export default function   MainlandCompanyFormation() {
+export default function   ExpertLegalAdviceDubai() {
   const main = useRef();
   const smoother = useRef();
 
@@ -72,16 +70,17 @@ export default function   MainlandCompanyFormation() {
   return (
     <>
       <Helmet>
-        <title>   Mainland Company Formation Services in Dubai | Bizdoc Businessman Services
+        <title>     Expert Legal Advice Services Dubai | Bizdoc Legal Advisors
 
 </title>
         <meta
           name="description"
-          content="Bizdoc Businessman Services provides expert Mainland Company Formation Services in Dubai. Leading business setup company in Dubai offering legal services and tax & compliance services in Dubai."
+          content="  Bizdoc provides professional legal advice in Dubai. Expert guidance across corporate, real estate, employment, finance, and dispute resolution services.
+"
         />
         <meta
           name="keywords"
-          content="Mainland Company Formation Services in Dubai, LLC company setup Dubai, business setup company in Dubai, legal services in Dubai, tax & compliance services in Dubai"
+          content=" expert legal advice dubai, legal advisory dubai, legal consultants dubai, corporate legal advice uae, property law dubai, "
         />
            <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
@@ -118,8 +117,8 @@ export default function   MainlandCompanyFormation() {
         <div id="smooth-wrapper" ref={main}>
           <div id="smooth-content">
             <main className="main-bg">
-              <Header title={" Mainland Company Formation "} />
-              <MainlandCompanyFormationDubai/>
+              <Header title={"Contract Lawyers"} />
+              <ExpertLegaladviceDubai/>
             </main>
             <Footer />
           </div>

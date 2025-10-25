@@ -1,4 +1,4 @@
-import Lines from '../components/common/Lines';
+    import Lines from '../components/common/Lines';
 import ProgressScroll from '../components/common/ProgressScroll';
 import Cursor from '../components/common/cusor';
 import LoadingScreen from '../components/common/loader';
@@ -17,10 +17,18 @@ import { useGSAP } from '@gsap/react';
 import { useEffect, useRef } from 'react';
 
 
-import MainlandCompanyFormationDubai from '../components/business-setup/MainLandCompany';
+import BranchOfficeSetupDubai from '../components/business-setup/BranchOfficeSetupDubai';
+import DMCCCompanySetupDubai from '../components/business-setup/DMCCCompanySetupDubai';
+import DICCompanyFormationDubai from '../components/business-setup/DICCompanyFormationDubai';
+import DSOBusinessSetupDubai from '../components/business-setup/DSOBusinessSetupDubai';
+import CorporatePROServicesDubai from '../components/business-setup/CorporatePROServicesDubai';
+import LicenseRenewalServicesDubai from '../components/business-setup/LicenseRenewalServicesDubai';
+import LegalConsultantsDubai from '../components/business-setup/LegalConsultantsDubai';
+import DebtrecoveryDubai from '../components/business-setup/Debt-Recovery';
+import LitigationservicesDubai from '../components/business-setup/LitigationservicesDubai';
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
-export default function   MainlandCompanyFormation() {
+export default function   LitigationServicesDubai() {
   const main = useRef();
   const smoother = useRef();
 
@@ -72,16 +80,18 @@ export default function   MainlandCompanyFormation() {
   return (
     <>
       <Helmet>
-        <title>   Mainland Company Formation Services in Dubai | Bizdoc Businessman Services
+        <title>     Best Litigation Services in Dubai  | Expert Court Lawyers – Bizdoc
+
 
 </title>
         <meta
           name="description"
-          content="Bizdoc Businessman Services provides expert Mainland Company Formation Services in Dubai. Leading business setup company in Dubai offering legal services and tax & compliance services in Dubai."
+          content=" Bizdoc offers expert litigation services in Dubai. Our advocates handle civil, criminal, corporate, and construction disputes with professionalism and precision."
         />
         <meta
           name="keywords"
-          content="Mainland Company Formation Services in Dubai, LLC company setup Dubai, business setup company in Dubai, legal services in Dubai, tax & compliance services in Dubai"
+          content="best litigation services in dubai, litigation law firm dubai
+"
         />
            <link rel="icon" href="/assets/images/home/favicon.png" />
         <link rel="shortcut icon" href="/assets/images/home/favicon.png" />
@@ -118,8 +128,8 @@ export default function   MainlandCompanyFormation() {
         <div id="smooth-wrapper" ref={main}>
           <div id="smooth-content">
             <main className="main-bg">
-              <Header title={" Mainland Company Formation "} />
-              <MainlandCompanyFormationDubai/>
+              <Header title={"  Litigation Law Firm in Dubai"} />
+              <LitigationservicesDubai/>
             </main>
             <Footer />
           </div>
