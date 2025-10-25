@@ -134,90 +134,47 @@ function Footer() {
         </div>
 
         {/* Footer Bottom */}
-        <div className="pt-50 pb-50 mt-80 bord-thin-top  relative z-20">
-          <div className="">
-            <h6 className="sub-title mb-30">Business Setup</h6>
-            <ul className="rest fz-14 opacity-7 mb-30">
-              <li className="mb-5">
-                <a href="/company-formation-in-dubai">Company Formation Dubai</a>
-              </li>
-              <li className="mb-5">
-                <a href="/free-zone-company-setup-in-dubai">Free Zone Company Setup in Dubai</a>
-              </li>
-              <li className="mb-5">
-                <a href="/offshore-company-formation-services-in-dubai">Offshore Company Formation Services in Dubai</a>
-              </li>
-              <li className="mb-5">
-                <a href="/mainland-company-formation-services-in-dubai">Mainland Company Formation Services in Dubai
-                </a>
-              </li>
-              <li className="mb-5">
-                <a href="/llc-company-setup-services-in-dubai">LLC Company Setup Services in Dubai
-                </a>
-              </li>
-              <li className="mb-5">
-                <a href="/branch-office-setup-services-in-dubai">Branch Office Setup Services in Dubai
-                </a>
-              </li>
-              <li className="mb-5">
-                <a href="/dmccc-company-setup-services-in-dubai">DMCC Company Setup Services in Dubai
-                </a>
-              </li>
-              <li className="mb-5">
-                <a href="/dic-company-formation-services-in-dubai">DIC Company Formation Services in Dubai
+<div className="pt-50 pb-50 mt-80 bord-thin-top relative z-20">
+  <div>
+    <h6 className="sub-title mb-30">Business Setup</h6>
 
-                </a>
-              </li>
-              <li className="mb-5">
-                <a href="/dso-business-setup-services-in-dubai">DSO Business Setup Services in Dubai
+    <div className="row">
+      {/* Column 1 */}
+  <div className="col-12 col-md-6 col-lg-4 mb-3">
+        <ul className="rest fz-14 opacity-7 mb-30">
+          <li className="mb-5"><a href="/company-formation-in-dubai">Company Formation Dubai</a></li>
+          <li className="mb-5"><a href="/free-zone-company-setup-in-dubai">Free Zone Company Setup in Dubai</a></li>
+          <li className="mb-5"><a href="/offshore-company-formation-services-in-dubai">Offshore Company Formation Services in Dubai</a></li>
+          <li className="mb-5"><a href="/mainland-company-formation-services-in-dubai">Mainland Company Formation Services in Dubai</a></li>
+          <li className="mb-5"><a href="/llc-company-setup-services-in-dubai">LLC Company Setup Services in Dubai</a></li>
+          <li className="mb-5"><a href="/branch-office-setup-services-in-dubai">Branch Office Setup Services in Dubai</a></li>
+          <li className="mb-5"><a href="/dmccc-company-setup-services-in-dubai">DMCC Company Setup Services in Dubai</a></li>
+          <li className="mb-5"><a href="/dic-company-formation-services-in-dubai">DIC Company Formation Services in Dubai</a></li>
+          <li className="mb-5"><a href="/dso-business-setup-services-in-dubai">DSO Business Setup Services in Dubai</a></li>
+          <li className="mb-5"><a href="/corporate-pro-services-in-dubai">Corporate PRO Services in Dubai</a></li>
+        </ul>
+      </div>
 
-                </a>
-              </li>
-              <li className="mb-5">
-                <a href="/corporate-pro-services-in-dubai">Corporate PRO Services in Dubai
+      {/* Column 2 */}
+  <div className="col-12 col-md-6 col-lg-4 mb-3">
+        <ul className="rest fz-14 opacity-7 mb-30">
+          <li className="mb-5"><a href="/license-renewal-services-in-dubai">License Renewal Services in Dubai</a></li>
+          <li className="mb-5"><a href="/dubai-advocates-&-legal-consultants-in-dubai">Dubai Advocates & Legal Consultants in Dubai</a></li>
+          <li className="mb-5"><a href="/debt-recovery-dubai">Debt Recovery</a></li>
+          <li className="mb-5"><a href="/best-litigation-services-in-dubai">Litigation Law Firm in Dubai</a></li>
+          <li className="mb-5"><a href="/best-arbitration-law-firm-in-dubai">Arbitration</a></li>
+          <li className="mb-5"><a href="/legal-advice-services-in-dubai">Expert Legal Advice Services in Dubai</a></li>
+          <li className="mb-5"><a href="/contract-lawyers-in-dubai">Contract Lawyers in Dubai</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 
-                </a>
-              </li>
-              <li className="mb-5">
-                <a href="/license-renewal-services-in-dubai">License Renewal Services in Dubai
 
 
-                </a>
-              </li>
-              <li className="mb-5">
-                <a href="/dubai-advocates-&-legal-consultants-in-dubai">Dubai Advocates & Legal Consultants in Dubai
-
-
-                </a>
-              </li>
-              <li className="mb-5">
-                <a href="/debt-recovery-dubai">Debt Recovery
-                </a>
-              </li>
-              <li className="mb-5">
-                <a href="/best-litigation-services-in-dubai">Litigation Law Firm in Dubai
-
-                </a>
-              </li>
-              <li className="mb-5">
-                <a href="/best-arbitration-law-firm-in-dubai">Arbitration
-
-                </a>
-              </li>
-              <li className="mb-5">
-                <a href="/legal-advice-services-in-dubai">Expert Legal Advice Services in Dubai
-
-                </a>
-              </li>
-              <li className="mb-5">
-                <a href="/contract-lawyers-in-dubai">Contract Lawyers in Dubai
-
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
         <div className="pt-30 pb-30 mt-80 bord-thin-top relative z-20">
           <div className="text-center">
             <p className="fz-14">
